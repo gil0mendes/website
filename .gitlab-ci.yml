@@ -1,0 +1,20 @@
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+  ZOLA_VERSION: "v0.9.0"
+
+# using a light alpine to increase speed
+image: alpine:3.7
+
+stages:
+  - triggers
+
+blog:
+  stage: triggers
+  only:
+    refs:
+      - live
+    changes:
+      - blog/**/*
+  trigger:
+    include: blog/.blog-ci.yml
+    strategy: depend
