@@ -1,5 +1,3 @@
-image: alpine:latest
-
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
   ZOLA_VERSION: "v0.10.0"
