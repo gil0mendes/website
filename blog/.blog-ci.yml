@@ -19,7 +19,7 @@ build:
       - public
 
 deploy:
-  stage: depoy
+  stage: deploy
   variables:
     DOCKER_HOST: ${DOCKER_HOST}
     DOCKER_TLS_VERIFY: 1
@@ -32,7 +32,7 @@ deploy:
     - echo "$TLSKEY" > ~/.docker/key.pem
     - docker login -u gitlab-ci-token -p "$CI_BUILD_TOKEN" "$CI_REGISTRY"
     - docker stack deploy --with-registry-auth --compose-file=docker-stack-compose.yml ${CI_PROJECT_NAMESPACE}-${CI_PROJECT_NAME}-${SERVICE_NAME}
-  environemnt:
+  environment:
     name: live
     url: https://gil0mendes.io
   only:
