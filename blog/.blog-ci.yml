@@ -34,7 +34,7 @@ deploy:
     - docker stack deploy --with-registry-auth --compose-file=docker-stack-compose.yml ${CI_PROJECT_NAMESPACE}-${CI_PROJECT_NAME}-${SERVICE_NAME}
   environemnt:
     name: live
-    url: https://gil00mendes.io
+    url: https://gil0mendes.io
   only:
     - live
 
