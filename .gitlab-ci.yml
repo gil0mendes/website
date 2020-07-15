@@ -19,7 +19,6 @@ build:
 deploy:
   stage: deploy
   variables:
-    DOCKER_HOST: ${DOCKER_HOST}
     DOCKER_TLS_VERIFY: 1
     SERVICE_NAME: gil0mendes-website
   image: docker:latest
