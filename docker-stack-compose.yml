@@ -1,0 +1,29 @@
+version: '3.1'
+
+networks:
+  proxy:
+    external: true
+
+services:
+  web:
+    image: "${CI_REGISTRY}/${CI_PROJECT_NAMESPACE}/${CI_PROJECT_NAME}:${CI_BUILD_REF_NAME}"
+    container_name: gil0mendes_website
+    networks:
+      - proxy
+    deploy:
+      replicas: 1
+      update_config:
+        parallelism: 1
+        delay: 10s
+      restart_policy:
+        condition: on-failure
+        delay: 5s
+        max_attempts: 3
+        window: 120s
+      labels:
+        - "traefik.enable=true"
+        - "traefik.http.routers.gilmendeswebsite.rule=Host(`gil0mendes.io`)"
+        - "traefik.http.services.gilmendeswebsite.loadbalancer.server.port=80"
+        - "traefik.http.routers.gilmendeswebsite.entrypoints=websecure"
+        - "traefik.http.routers.gilmendeswebsite.tls.certresolver=le"
+        - "traefik.http.routers.gilmendeswebsite.service=gilmendeswebsite"
