@@ -46,12 +46,13 @@ deploy:
     DOCKER_HOST: "$DEPLOY_DOCKER_HOST"
     SERVICE_NAME: gil0mendes-website
   image: docker:latest
+  before_script:
+    - echo $CI_BUILD_TOKEN | docker login -u "$CI_REGISTRY_USER" --password-stdin $CI_REGISTRY
   script:
     - mkdir -p ~/.docker
     - echo "$TLSCACERT" > ~/.docker/ca.pem
     - echo "$TLSCERT" > ~/.docker/cert.pem
     - echo "$TLSKEY" > ~/.docker/key.pem
-    - docker login -u gitlab-ci-token -p "$CI_BUILD_TOKEN" "$CI_REGISTRY"
     - docker stack deploy --with-registry-auth --compose-file=docker-stack-compose.yml ${CI_PROJECT_NAMESPACE}-${CI_PROJECT_NAME}-${SERVICE_NAME}
   environment:
     name: live
