@@ -8,6 +8,7 @@ stages:
 
 build:
   stage: build
+  image: docker:stable
   services:
     - docker:ding
   script:
