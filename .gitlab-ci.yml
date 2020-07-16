@@ -1,6 +1,8 @@
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
   ZOLA_VERSION: "v0.10.0"
+  DOCKER_DRIVE: overlay2
+  DOKCER_TLS_CERTDIR: "/certs"
 
 stages:
   - build
