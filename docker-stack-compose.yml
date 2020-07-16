@@ -6,7 +6,7 @@ networks:
 
 services:
   web:
-    image: "${CI_REGISTRY}/${CI_PROJECT_NAMESPACE}/${CI_REGISTRY_IMAGE}:latest"
+    image: "${CI_REGISTRY_IMAGE}:${CI_BUILD_REF_NAME}"
     container_name: gil0mendes_website
     networks:
       - proxy
