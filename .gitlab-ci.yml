@@ -43,6 +43,7 @@ deploy:
     - build_docker
   variables:
     DOCKER_TLS_VERIFY: 1
+    DOCKER_HOST: "$DEPLOY_DOCKER_HOST"
     SERVICE_NAME: gil0mendes-website
   image: docker:latest
   script:
