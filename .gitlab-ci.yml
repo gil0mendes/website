@@ -19,9 +19,9 @@ build:
 
 build_docker:
   stage: build_docker
-  image: docker:stable
+  image: docker:19.03.12
   services:
-    - docker:dind
+    - docker:19.03.12-dind
   dependencies:
     - build
   script:
