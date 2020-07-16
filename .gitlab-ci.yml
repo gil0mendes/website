@@ -4,7 +4,7 @@ variables:
 
 stages:
   - build
-  - build-docker
+  - build_docker
   - deploy
 
 build:
@@ -17,11 +17,13 @@ build:
     paths:
       - public
 
-build-docker:
-  stage: build-docker
+build_docker:
+  stage: build_docker
   image: docker:stable
   services:
     - docker:dind
+  dependencies:
+    - build
   script:
     - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
     - docker build --pull -t $CI_REGISTRY_IMAGE:$CI_BUILD_REF_NAME .
@@ -31,9 +33,13 @@ build-docker:
   needs:
     - job: build
       artifacts: true
+  only:
+    - live
 
 deploy:
   stage: deploy
+  dependencies:
+    - build_docker
   variables:
     DOCKER_TLS_VERIFY: 1
     SERVICE_NAME: gil0mendes-website
