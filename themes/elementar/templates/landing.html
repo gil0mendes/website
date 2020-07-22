@@ -1,0 +1,12 @@
+{% extends "site.html" %}
+
+{% block header %}
+<header class="siteHeader">
+  <div>Hey!</div>
+</header>
+{% endblock header %}
+
+
+{% block body %}
+{{ section.content | safe }}
+{% endblock body %}

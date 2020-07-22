@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="HandhelfFriendly" content="True" />
+
+    <link rel="icon" type="image/png" href="/favicon.png" />
+
+    <meta name="application-name" content="{{ config.title }}" />
+    <meta name="author" content="{{ config.extra.author }}" />
+
+    <title>
+      {%- block title -%} {%- if page.title -%}
+      {{ page.title }}{{ " · " }}
+      {%- endif -%} {%- if section.title -%}
+      {{ section.title }}{{ " · " }}
+      {%- endif -%}
+      {{ config.title }}
+      {%- endblock title -%}
+    </title>
+  </head>
+  <body>
+    {% block main %}
+    <main>
+      <conten>
+      {% block body -%}{%- endblock body %}
+
+      {% block page_footer %}{% endblock page_footer %}
+      </content>
+      <sidebar>TODO Sidebar</sidebar>
+    </main>
+    {% endblock main %}
+  </body>
+</html>

@@ -1,15 +1,26 @@
 # The URL the site will be built for
 base_url = "https://gil0mendes.io"
 
+title = "gil0mendes"
+description = "Gil Mendes personal website"
+
+theme = "elementar"
+default_language = "en"
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
-
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
-
-# Whether to build a search index to be used later on by a JavaScript library
+generate_rss = true
 build_search_index = true
+check_external_links = false
+
+taxonomies = [
+  { name = "categories", paginate_by = 5, rss = true },
+  { name = "tags", paginate_by = 5, rss = true },
+]
 
 [extra]
-# Put all your custom variables here
+author = "Gil Mendes"
+
+alementar_title = "Gil Mendes"
+elementar_menu = []
