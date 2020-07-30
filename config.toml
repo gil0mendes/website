@@ -22,5 +22,9 @@ taxonomies = [
 [extra]
 author = "Gil Mendes"
 
-alementar_title = "Gil Mendes"
+elementar_menu = [
+  {url = "$BASE_URL/", name = "Home"},
+]
+
+elementar_title = "Gil Mendes"
 elementar_menu = []

@@ -7,8 +7,10 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	0.0.0	/20e934e/
+#glyphicons-halflings	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	i
 '	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.d.o.n
 '	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.i
+*:hover>.anchor	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	c
 .2s	themes/elementar/sass/_components.scss	/^            border 0.2s ease;$/;"	c
 .2s	themes/elementar/sass/_components.scss	/^            box-shadow 0.2s ease,$/;"	c
 .2s	themes/elementar/sass/_components.scss	/^            color 0.2s ease;$/;"	c
@@ -17,21 +19,30 @@
 .2s	themes/elementar/sass/_components.scss	/^        border 0.2s ease;$/;"	c
 .2s	themes/elementar/sass/_components.scss	/^        color 0.2s ease-in-out,$/;"	c
 .active	themes/elementar/sass/_layout.scss	/^        &.active {$/;"	c
+.anchor	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	c
 .anchor	themes/elementar/sass/_components.scss	/^.anchor {$/;"	c
+.anchor:active	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	c
 .anchor:active	themes/elementar/sass/_components.scss	/^.anchor:active,$/;"	c
+.anchor:focus	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	c
 .anchor:focus	themes/elementar/sass/_components.scss	/^.anchor:focus {$/;"	c
 .comments-container	themes/elementar/sass/_components.scss	/^    .comments-container {$/;"	c
 .logo	themes/elementar/sass/_components.scss	/^header#banner .logo {$/;"	c
+.meta	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	c
 .meta	themes/elementar/sass/_components.scss	/^.meta {$/;"	c
+.muted	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	c
 .muted	themes/elementar/sass/_components.scss	/^.muted {$/;"	c
 .muted	themes/elementar/sass/_icons.scss	/^.muted #glyphicons-halflings {$/;"	c
+.muted #glyphicons-halflings	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	i
 .single	themes/elementar/sass/_layout.scss	/^article.single {$/;"	c
 .sub	themes/elementar/sass/_layout.scss	/^    li.sub > a {$/;"	c
+.tag	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	c
 .tag	themes/elementar/sass/_components.scss	/^.tag {$/;"	c
 .tag	themes/elementar/sass/_components.scss	/^a.tag {$/;"	c
 .tag	themes/elementar/sass/_components.scss	/^content .tag {$/;"	c
 .tag	themes/elementar/sass/_components.scss	/^sidebar .tag {$/;"	c
+.tags	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	c
 .tags	themes/elementar/sass/_components.scss	/^.tags {$/;"	c
+.theme-toggle	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	c
 .theme-toggle	themes/elementar/sass/_components.scss	/^.theme-toggle {$/;"	c
 1:1111/	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.documentStore.docInfo.http://127.0.0
 1:1111/	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.documentStore.docs.http://127.0.0
@@ -103,6 +114,7 @@ Category: Blog	public/categories/blog/index.html	/^  <h1>Category: Blog<\/h1>$/;
 Category: {{ term.name | title }}	themes/elementar/templates/categories/single.html	/^  <h1>Category: {{ term.name | title }}<\/h1>$/;"	h
 Configuration	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	c	class:t
 Configuration	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:t
+Contents	themes/elementar/templates/site.html	/^            <h1>Contents<\/h1>$/;"	h
 DocumentStore	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	c	class:t
 EventEmitter	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	c	class:t
 Index	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	c	class:t
@@ -112,6 +124,7 @@ InvertedIndex	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e|
 Pipeline	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	c	class:t
 Pipeline	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:t
 SortedSet	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	c	class:lunr
+Tags	themes/elementar/templates/site.html	/^          <h1><a href="\/tags">Tags<\/a><\/h1>$/;"	h
 a	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
 a	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root
 a	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.e.x
@@ -120,6 +133,9 @@ a	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"p
 a	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.p.l
 a	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.title.root.h.o.m.e.p
 a	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+a.tag:active	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	c
+a.tag:focus	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	c
+a.tag:hover	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	c
 a:active	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
 a:focus	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
 a:hover	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
@@ -152,6 +168,9 @@ anci	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"
 and	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
 any	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
 are	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
+article	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+article p	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+article.single	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	c
 as	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
 at	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
 ation	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.stemmer.e
@@ -162,6 +181,8 @@ b	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"p
 b	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.w.e
 b	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.title.root
 banner	themes/elementar/sass/_components.scss	/^header#banner .logo {$/;"	i
+banner	themes/elementar/templates/landing.html	/^<header id="banner">$/;"	I
+banner	themes/elementar/templates/site.html	/^      <header id="banner">$/;"	I
 be	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
 because	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
 been	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
@@ -221,6 +242,31 @@ config	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"objec
 config	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	c	class:e.AnonymousFunctionb92eb4961400
 config	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	c	class:t.Configuration.buildUserConfig
 content	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+content .comments-container	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	c
+content .tag	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	c
+content blockquote	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+content code	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+content header>h1	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+content header>h2	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+content header>h3	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+content header>h4	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+content header>h5	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+content header>h6	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+content iframe	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+content img	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+content ol	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+content pre	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+content table	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+content table td	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+content ul	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+content video	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+content>header	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+content>header h1	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+content>header h2	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+content>header h3	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+content>header h4	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+content>header h5	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+content>header h6	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
 coordNorm	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	m	class:t.Index
 could	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
 d	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root
@@ -509,6 +555,7 @@ font-logo	themes/elementar/sass/_config.scss	/^$font-logo: $font-main;$/;"	v
 font-main	themes/elementar/sass/_config.scss	/^$font-main: "Zilla Slab", "Open Sans", sans-serif;$/;"	v
 font-mono	themes/elementar/sass/_config.scss	/^$font-mono: "Fira Mono", monospace;$/;"	v
 font-read	themes/elementar/sass/_config.scss	/^$font-read: "Merriweather", serif;$/;"	v
+footer	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
 for	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
 forEach	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	m	class:lunr.SortedSet
 from	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
@@ -542,11 +589,20 @@ h	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"p
 h	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.t.e.c
 h	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.title.root
 h1	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+h1 #glyphicons-halflings	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	i
 h2	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+h2 #glyphicons-halflings	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	i
 h3	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+h3 #glyphicons-halflings	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	i
+h4 #glyphicons-halflings	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	i
+h5 #glyphicons-halflings	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	i
+h6 #glyphicons-halflings	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	i
 hasDoc	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	m	class:t.DocumentStore
 hasHandler	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	m	class:t.EventEmitter
 hasToken	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	m	class:t.InvertedIndex
+header#banner .logo	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	c
+header#banner .logo:active	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	c
+header#banner .logo:hover	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	c
 headings	themes/elementar/sass/_functions.scss	/^@function headings($from:1, $to:6, $prefix:"") {$/;"	f
 hr	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
 html	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
@@ -673,6 +729,22 @@ search	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"objec
 searchIndex	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window
 setRef	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	m	class:t.Index
 setSeperator	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:t.tokenizer
+sidebar	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+sidebar .tag	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	c
+sidebar h1	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+sidebar h2	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+sidebar h3	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+sidebar h4	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+sidebar h5	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+sidebar h6	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+sidebar>section	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+sidebar>section ul	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+sidebar>section ul li	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+sidebar>section ul li a	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+sidebar>section ul li a.active	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	c
+sidebar>section ul li a:active	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+sidebar>section ul li.sub>a	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	c
+sidebar>section>ul	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
 stemmer	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:t
 stopWordFilter	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:t
 style-dark	public/about/index.html	/^    <link id="style-dark" rel="stylesheet" href="http:\/\/127.0.0.1:1111\/site_dark.css">$/;"	I
@@ -762,4 +834,6 @@ x	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"p
 z	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:t.stemmer
 zola-continue-reading	themes/elementar/sass/_zola.scss	/^p#zola-continue-reading > a {$/;"	i
 {{ page.title }}	themes/elementar/templates/page.html	/^    <h1 itemprop="headline">{{ page.title }}<\/h1>$/;"	h
+{{ page.title }}	themes/elementar/templates/site.html	/^          <\/h1>$/;"	h
 {{ page.title }} {{ self::meta(page=page) }}	themes/elementar/templates/post_macros.html	/^    <\/h1>$/;"	h
+{{ section.title }} {%- if paginator -%} {% if paginator.current_index > 1 %} &nbsp;&middot;&nbsp; Page {{ paginator.current_index }} {% endif %} {%- endif -%}	themes/elementar/templates/site.html	/^            <\/h1>$/;"	h

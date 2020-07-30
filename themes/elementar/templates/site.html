@@ -27,14 +27,97 @@
     {% endblock extra_head %}
   </head>
   <body>
+    {% if config.extra.elementar_title %}
+      {% block header %}
+      <header id="banner">
+        <a href="/" class="logo">{{ config.extra.elementar_title }}</a>
+      </header>
+      {% endblock header %}
+    {% endif %}
+
     {% block main %}
     <main>
       <content>
-        {% block body -%}{%- endblock body %} {% block page_footer %}{% endblock
-        page_footer %}
+        <a href="#" class="theme-toggle" onclick="theme_toggle(); return false;" title="Toggle light/dark mode">
+          {{ load_data(path="static/icons/contrast.svg") | safe -}}
+        </a>
+
+        {% if section.title %}
+          <header>
+            <h1>
+              {{ section.title }}
+              {%- if paginator -%}
+                {% if paginator.current_index > 1 %}
+                    &nbsp;&middot;&nbsp; Page {{ paginator.current_index }}
+                  {% endif %}
+              {%- endif -%}
+            </h1>
+            {%- if not section.extra.elementar_hide_header_meta -%}
+              {%- block header_meta -%}{%- endblock header_meta -%}
+            {%- endif -%}
+          </header>
+        {% endif %}
+        {% if page.title -%}
+        <header>
+          <h1>
+            {{ page.title }}
+          </h1>
+          {%- if not page.extra.zenn_hide_header_meta -%}
+            {%- block header_meta -%}{%- endblock header_meta -%}
+          {%- endif %}
+        </header>
+        {%- endif %}
+
+        {% block body -%}{%- endblock body %}
+
+        {% block page_footer %}{% endblock page_footer %}
       </content>
+
       <sidebar>
-        {# categories #} {% set categories = get_taxonomy(kind="categories") %}
+        {% if config.extra.elementar_menu -%}
+        <section>
+          <ul>
+            <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+              {% for item in config.extra.elementar_menu %}
+                <li>
+                  <a itemprop="url"
+                          class="{% if item.url | replace(from="$BASE_URL", to=config.base_url) == current_url %}active{% endif %}"
+                          href="{{ item.url | safe | replace(from="$BASE_URL", to=config.base_url) }}">
+                    <span itemprop="name">{{ item.name }}</span>
+                  </a>
+                </li>
+              {% endfor %}
+            </nav>
+          </ul>
+        </section>
+        {%- endif %}
+
+        {# Table of contents #}
+        {% if toc -%}
+          <section>
+            <h1>Contents</h1>
+            <ul>
+              <li><a href="{{ current_url }}#">{{ page.title }}</a></li>
+              {% for h1 in toc %}
+              <li>
+                <a href="{{ h1.permalink | safe }}">{{ loop.index }}. {{ h1.title }}</a>
+                {% if h1.children %}
+                  {# <ul> #}
+                  {% for h2 in h1.children %}
+                      <li class="sub">
+                          <a href="{{h2.permalink | safe}}">{{ loop.index }}. {{ h2.title }}</a>
+                      </li>
+                  {% endfor %}
+                  {# </ul> #}
+                {% endif %}
+              </li>
+              {% endfor %}
+            </ul>
+          </section>
+        {%- endif %}
+
+        {# categories #}
+        {% set categories = get_taxonomy(kind="categories") %}
         {% if categories.items | length > 0 -%}
         <section class="categories">
           <h1><a href="/categories">Categories</a></h1>
@@ -42,12 +125,40 @@
             <ul>
               {% for category in categories.items %}
               <li>
-                <a itemprop="url" href="{{ category.permalink | safe }}" class="{% if category.permalink | replace(from="$BASE_URL", to=config.base_url) == current_url %}active{% endif %}"><span itemprop="name">{{ category.name | title }}</span></a></li>
+                <a itemprop="url"
+                  href="{{ category.permalink | safe }}"
+                  class="{% if category.permalink | replace(from="$BASE_URL", to=config.base_url) == current_url %}active{% endif %}">
+                  <span itemprop="name">{{ category.name | title }}</span>
+                </a>
+              </li>
               {% endfor %}
             </ul>
           </nav>
         </section>
         {%- endif %}
+
+        {# Tags #}
+        {% set tags = get_taxonomy(kind="tags") -%}
+        {% if tags.items | length > 0 -%}
+        <section>
+          <h1><a href="/tags">Tags</a></h1>
+          <div class="tags">
+            {% for tag in tags.items %}
+              <a href="{{ tag.permalink | safe }}"
+                      class="tag {% if tag.permalink | replace(from="$BASE_URL", to=config.base_url) == current_url %}active{% endif %}">
+                {{ tag.name }}
+              </a>
+            {% endfor %}
+          </div>
+        </section>
+        {%- endif %}
+
+        <p class="muted">
+            Copyright &copy; {{ config.title }} {{ now() | date(format="%Y") }}
+            {% if config.extra.elementar_source %}
+                <br /><a href="{{ config.extra.elementar_source }}" target="_blank">Source</a>
+            {% endif %}
+        </p>
       </sidebar>
     </main>
     {% endblock main %}
