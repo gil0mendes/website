@@ -9,6 +9,30 @@
 !_TAG_PROGRAM_VERSION	0.0.0	/20e934e/
 '	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.d.o.n
 '	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.i
+.2s	themes/elementar/sass/_components.scss	/^            border 0.2s ease;$/;"	c
+.2s	themes/elementar/sass/_components.scss	/^            box-shadow 0.2s ease,$/;"	c
+.2s	themes/elementar/sass/_components.scss	/^            color 0.2s ease;$/;"	c
+.2s	themes/elementar/sass/_components.scss	/^        background-color 0.2s ease,$/;"	c
+.2s	themes/elementar/sass/_components.scss	/^        background-color 0.2s ease-in-out;$/;"	c
+.2s	themes/elementar/sass/_components.scss	/^        border 0.2s ease;$/;"	c
+.2s	themes/elementar/sass/_components.scss	/^        color 0.2s ease-in-out,$/;"	c
+.active	themes/elementar/sass/_layout.scss	/^        &.active {$/;"	c
+.anchor	themes/elementar/sass/_components.scss	/^.anchor {$/;"	c
+.anchor:active	themes/elementar/sass/_components.scss	/^.anchor:active,$/;"	c
+.anchor:focus	themes/elementar/sass/_components.scss	/^.anchor:focus {$/;"	c
+.comments-container	themes/elementar/sass/_components.scss	/^    .comments-container {$/;"	c
+.logo	themes/elementar/sass/_components.scss	/^header#banner .logo {$/;"	c
+.meta	themes/elementar/sass/_components.scss	/^.meta {$/;"	c
+.muted	themes/elementar/sass/_components.scss	/^.muted {$/;"	c
+.muted	themes/elementar/sass/_icons.scss	/^.muted #glyphicons-halflings {$/;"	c
+.single	themes/elementar/sass/_layout.scss	/^article.single {$/;"	c
+.sub	themes/elementar/sass/_layout.scss	/^    li.sub > a {$/;"	c
+.tag	themes/elementar/sass/_components.scss	/^.tag {$/;"	c
+.tag	themes/elementar/sass/_components.scss	/^a.tag {$/;"	c
+.tag	themes/elementar/sass/_components.scss	/^content .tag {$/;"	c
+.tag	themes/elementar/sass/_components.scss	/^sidebar .tag {$/;"	c
+.tags	themes/elementar/sass/_components.scss	/^.tags {$/;"	c
+.theme-toggle	themes/elementar/sass/_components.scss	/^.theme-toggle {$/;"	c
 1:1111/	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.documentStore.docInfo.http://127.0.0
 1:1111/	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.documentStore.docs.http://127.0.0
 1:1111/	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.b.i.t.docs.http://127.0.0
@@ -66,11 +90,24 @@ AnonymousFunctionb92eb4961300	public/elasticlunr.min.js	/^!function(){function e
 AnonymousFunctionb92eb4961400	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	c	class:e
 AnonymousFunctionb92eb4961500	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	c
 AnonymousFunctionb92eb4961600	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f
+Categories	public/about/index.html	/^          <h1><a href="\/categories">Categories<\/a><\/h1>$/;"	h
+Categories	public/blog/index.html	/^          <h1><a href="\/categories">Categories<\/a><\/h1>$/;"	h
+Categories	public/blog/initial/index.html	/^          <h1><a href="\/categories">Categories<\/a><\/h1>$/;"	h
+Categories	public/categories/blog/index.html	/^          <h1><a href="\/categories">Categories<\/a><\/h1>$/;"	h
+Categories	public/categories/index.html	/^          <h1><a href="\/categories">Categories<\/a><\/h1>$/;"	h
+Categories	public/categories/index.html	/^  <h1>Categories<\/h1>$/;"	h
+Categories	public/index.html	/^          <h1><a href="\/categories">Categories<\/a><\/h1>$/;"	h
+Categories	themes/elementar/templates/categories/list.html	/^  <h1>Categories<\/h1>$/;"	h
+Categories	themes/elementar/templates/site.html	/^          <h1><a href="\/categories">Categories<\/a><\/h1>$/;"	h
+Category: Blog	public/categories/blog/index.html	/^  <h1>Category: Blog<\/h1>$/;"	h
+Category: {{ term.name | title }}	themes/elementar/templates/categories/single.html	/^  <h1>Category: {{ term.name | title }}<\/h1>$/;"	h
 Configuration	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	c	class:t
 Configuration	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:t
 DocumentStore	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	c	class:t
 EventEmitter	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	c	class:t
 Index	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	c	class:t
+Initial 1 minute read Published: 2020-07-21	public/blog/index.html	/^    <\/h1>$/;"	h
+Initial 1 minute read Published: 2020-07-21	public/categories/blog/index.html	/^    <\/h1>$/;"	h
 InvertedIndex	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	c	class:t
 Pipeline	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	c	class:t
 Pipeline	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:t
@@ -82,6 +119,10 @@ a	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"p
 a	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.i.d.e.i
 a	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.p.l
 a	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.title.root.h.o.m.e.p
+a	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+a:active	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+a:focus	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+a:hover	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
 able	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
 about	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
 across	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
@@ -120,6 +161,7 @@ ator	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"
 b	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root
 b	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.w.e
 b	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.title.root
+banner	themes/elementar/sass/_components.scss	/^header#banner .logo {$/;"	i
 be	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
 because	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
 been	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
@@ -135,6 +177,8 @@ body	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"]
 body	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.documentStore.docs.http://127.0.0.1:1111/about/
 body	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.documentStore.docs.http://127.0.0.1:1111/blog/
 body	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.documentStore.docs.http://127.0.0.1:1111/blog/initial/
+body	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+body>header	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
 bool	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:AnonymousFunctionb92eb4961500.config
 bool	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:e.AnonymousFunctionb92eb4961400.config
 bool	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.Configuration.buildUserConfig.config
@@ -152,17 +196,36 @@ c	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"p
 c	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.t.e
 c	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.t.e.c.h.n.i
 c	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.w.e.l
+calendar	public/blog/index.html	/^  <path id="calendar" d="M9,8.5v1a.5.5,0,0,1-.5.5h-1A.5.5,0,0,1,7,9.5v-1A.5.5,0,0,1,7.5,8h1A.5.5/;"	I
+calendar	public/categories/blog/index.html	/^  <path id="calendar" d="M9,8.5v1a.5.5,0,0,1-.5.5h-1A.5.5,0,0,1,7,9.5v-1A.5.5,0,0,1,7.5,8h1A.5.5/;"	I
+calendar	public/icons/calendar.svg	/^  <path id="calendar" d="M9,8.5v1a.5.5,0,0,1-.5.5h-1A.5.5,0,0,1,7,9.5v-1A.5.5,0,0,1,7.5,8h1A.5.5/;"	i
+calendar	static/icons/calendar.svg	/^  <path id="calendar" d="M9,8.5v1a.5.5,0,0,1-.5.5h-1A.5.5,0,0,1,7,9.5v-1A.5.5,0,0,1,7.5,8h1A.5.5/;"	i
 can	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
 cannot	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
 clearStopWords	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:t
+clock	public/blog/index.html	/^  <path id="clock" d="M11,7v3a.99943.99943,0,0,1-1,1H8A1,1,0,0,1,8,9H9V7a1,1,0,0,1,2,0Zm7,3a8,8,/;"	I
+clock	public/categories/blog/index.html	/^  <path id="clock" d="M11,7v3a.99943.99943,0,0,1-1,1H8A1,1,0,0,1,8,9H9V7a1,1,0,0,1,2,0Zm7,3a8,8,/;"	I
+clock	public/icons/clock.svg	/^  <path id="clock" d="M11,7v3a.99943.99943,0,0,1-1,1H8A1,1,0,0,1,8,9H9V7a1,1,0,0,1,2,0Zm7,3a8,8,/;"	i
+clock	static/icons/clock.svg	/^  <path id="clock" d="M11,7v3a.99943.99943,0,0,1-1,1H8A1,1,0,0,1,8,9H9V7a1,1,0,0,1,2,0Zm7,3a8,8,/;"	i
 clone	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	m	class:lunr.SortedSet
+color-header	themes/elementar/sass/_dark_config.scss	/^$color-header: #ff6f33;$/;"	v
+color-link	themes/elementar/sass/_dark_config.scss	/^$color-link: #ae9513;$/;"	v
+color-link-hover	themes/elementar/sass/_dark_config.scss	/^$color-link-hover: lighten($color-link, 15%);$/;"	v
+color-main-bg	themes/elementar/sass/_dark_config.scss	/^$color-main-bg: #20201d;$/;"	v
+color-main-bg-alt	themes/elementar/sass/_dark_config.scss	/^$color-main-bg-alt: darken($color-main-bg, 4%);$/;"	v
+color-main-border	themes/elementar/sass/_dark_config.scss	/^$color-main-border: darken($color-main-bg, 8%);$/;"	v
+color-main-shadow	themes/elementar/sass/_dark_config.scss	/^$color-main-shadow: rgba($color-main-border, 0.4);$/;"	v
+color-text	themes/elementar/sass/_dark_config.scss	/^$color-text: #a6a28c;$/;"	v
+color-text-muted	themes/elementar/sass/_dark_config.scss	/^$color-text-muted: darken($color-text, 25%);$/;"	v
 config	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	c	class:AnonymousFunctionb92eb4961500
 config	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	c	class:e.AnonymousFunctionb92eb4961400
 config	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	c	class:t.Configuration.buildUserConfig
+content	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
 coordNorm	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	m	class:t.Index
 could	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
 d	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root
 d	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.i
+dark	themes/elementar/sass/_dark_config.scss	/^$dark: true;$/;"	v
 dear	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
 defaultStopWords	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	c	class:t
 df	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.InvertedIndex.root
@@ -441,9 +504,15 @@ f	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"p
 fieldSearch	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	m	class:t.Index
 fieldSearchStats	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	m	class:t.Index
 fields	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex
+font-base	themes/elementar/sass/_config.scss	/^$font-base: "Source Sans Pro", Ubuntu, sans-serif;$/;"	v
+font-logo	themes/elementar/sass/_config.scss	/^$font-logo: $font-main;$/;"	v
+font-main	themes/elementar/sass/_config.scss	/^$font-main: "Zilla Slab", "Open Sans", sans-serif;$/;"	v
+font-mono	themes/elementar/sass/_config.scss	/^$font-mono: "Fira Mono", monospace;$/;"	v
+font-read	themes/elementar/sass/_config.scss	/^$font-read: "Merriweather", serif;$/;"	v
 for	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
 forEach	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	m	class:lunr.SortedSet
 from	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
+from	themes/elementar/sass/_functions.scss	/^@function headings($from:1, $to:6, $prefix:"") {$/;"	z
 ful	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.stemmer.t
 fulness	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.stemmer.e
 g	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.b.l.o
@@ -459,13 +528,28 @@ getNode	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"obje
 getRegisteredFunction	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:t.Pipeline
 getSeperator	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:t.tokenizer
 getTermFrequency	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	m	class:t.InvertedIndex
+glyphicons-halflings	public/blog/index.html	/^    <svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 20">$/;"	I
+glyphicons-halflings	public/categories/blog/index.html	/^    <svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 20">$/;"	I
+glyphicons-halflings	public/icons/calendar.svg	/^<svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 20">$/;"	i
+glyphicons-halflings	public/icons/clock.svg	/^<svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 20">$/;"	i
+glyphicons-halflings	static/icons/calendar.svg	/^<svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 20">$/;"	i
+glyphicons-halflings	static/icons/clock.svg	/^<svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 20">$/;"	i
+glyphicons-halflings	themes/elementar/sass/_icons.scss	/^  #glyphicons-halflings {$/;"	i
+glyphicons-halflings	themes/elementar/sass/_icons.scss	/^#glyphicons-halflings {$/;"	i
+glyphicons-halflings	themes/elementar/sass/_icons.scss	/^.muted #glyphicons-halflings {$/;"	i
 h	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root
 h	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.s
 h	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.t.e.c
 h	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.title.root
+h1	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+h2	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+h3	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
 hasDoc	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	m	class:t.DocumentStore
 hasHandler	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	m	class:t.EventEmitter
 hasToken	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	m	class:t.InvertedIndex
+headings	themes/elementar/sass/_functions.scss	/^@function headings($from:1, $to:6, $prefix:"") {$/;"	f
+hr	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+html	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
 i	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root
 i	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.a.r.t
 i	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.b
@@ -500,6 +584,7 @@ l	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"p
 l	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.p
 l	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.w.e
 l	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.title.root.b
+landing-color-shadow	themes/elementar/sass/_dark_config.scss	/^$landing-color-shadow: $color-main-border;$/;"	v
 lang	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex
 length	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.documentStore
 load	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:lunr.SortedSet
@@ -509,12 +594,15 @@ load	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"
 load	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:t.Pipeline
 locationFor	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	m	class:lunr.SortedSet
 logi	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.stemmer.e
+logo-color	themes/elementar/sass/_dark_config.scss	/^$logo-color: #ddd;$/;"	v
+logo-color-hover	themes/elementar/sass/_dark_config.scss	/^$logo-color-hover: $color-link-hover;$/;"	v
 m	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.e.x.a
 m	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.h.o
 m	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.i.'
 m	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.t.i
 m	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.w.e.l.c.o
 m	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.title.root.h.o
+main	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
 map	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	m	class:lunr.SortedSet
 mergeScores	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	m	class:t.Index
 n	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.c.u.r.r.e
@@ -524,7 +612,11 @@ n	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"p
 n	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.t.e.c.h
 n	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.title.root.i
 ness	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.stemmer.t
+ns04227bb60101	public/icons/calendar.svg	/^<svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 20">$/;"	n	uri:http://www.w3.org/2000/svg
+ns06aeb41f0101	static/icons/calendar.svg	/^<svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 20">$/;"	n	uri:http://www.w3.org/2000/svg
 ns705935650101	public/sitemap.xml	/^<urlset xmlns="http:\/\/www.sitemaps.org\/schemas\/sitemap\/0.9">$/;"	n	uri:http://www.sitemaps.org/schemas/sitemap/0.9
+nsbbbfd7b10101	static/icons/clock.svg	/^<svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 20">$/;"	n	uri:http://www.w3.org/2000/svg
+nsfa1beea80101	public/icons/clock.svg	/^<svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 20">$/;"	n	uri:http://www.w3.org/2000/svg
 o	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root
 o	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.b.l
 o	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.d
@@ -543,7 +635,9 @@ p	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"p
 p	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.e.x.a.m
 p	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.h.o.m.e
 p	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.title.root.h.o.m.e
+p	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
 pipeline	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex
+prefix	themes/elementar/sass/_functions.scss	/^@function headings($from:1, $to:6, $prefix:"") {$/;"	z
 r	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.a
 r	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.c.u
 r	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.c.u.r
@@ -562,6 +656,9 @@ reset	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object
 reset	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	m	class:t.Pipeline
 resetSeperator	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:t.tokenizer
 resetStopWords	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:t
+responsive-large	themes/elementar/sass/_config.scss	/^$responsive-large: 992px;$/;"	v
+responsive-medium	themes/elementar/sass/_config.scss	/^$responsive-medium: 768px;$/;"	v
+responsive-small	themes/elementar/sass/_config.scss	/^$responsive-small: 576px;$/;"	v
 root	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	c	class:t.InvertedIndex
 root	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body
 root	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.title
@@ -578,6 +675,13 @@ setRef	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"objec
 setSeperator	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:t.tokenizer
 stemmer	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:t
 stopWordFilter	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:t
+style-dark	public/about/index.html	/^    <link id="style-dark" rel="stylesheet" href="http:\/\/127.0.0.1:1111\/site_dark.css">$/;"	I
+style-dark	public/blog/index.html	/^    <link id="style-dark" rel="stylesheet" href="http:\/\/127.0.0.1:1111\/site_dark.css">$/;"	I
+style-dark	public/blog/initial/index.html	/^    <link id="style-dark" rel="stylesheet" href="http:\/\/127.0.0.1:1111\/site_dark.css">$/;"	I
+style-dark	public/categories/blog/index.html	/^    <link id="style-dark" rel="stylesheet" href="http:\/\/127.0.0.1:1111\/site_dark.css">$/;"	I
+style-dark	public/categories/index.html	/^    <link id="style-dark" rel="stylesheet" href="http:\/\/127.0.0.1:1111\/site_dark.css">$/;"	I
+style-dark	public/index.html	/^    <link id="style-dark" rel="stylesheet" href="http:\/\/127.0.0.1:1111\/site_dark.css">$/;"	I
+style-dark	themes/elementar/templates/site.html	/^      <link id="style-dark" rel="stylesheet" href="{{ get_url(path="site_dark.css", trailing_sla/;"	I
 t	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	c	class:t.stemmer
 t	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f
 t	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root
@@ -629,6 +733,7 @@ title	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"
 title	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.documentStore.docs.http://127.0.0.1:1111/about/
 title	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.documentStore.docs.http://127.0.0.1:1111/blog/
 title	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.documentStore.docs.http://127.0.0.1:1111/blog/initial/
+to	themes/elementar/sass/_functions.scss	/^@function headings($from:1, $to:6, $prefix:"") {$/;"	z
 toArray	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	m	class:lunr.SortedSet
 toJSON	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	m	class:lunr.SortedSet
 toJSON	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	m	class:t.DocumentStore
@@ -655,4 +760,6 @@ warnIfFunctionNotRegistered	public/elasticlunr.min.js	/^!function(){function e(e
 website	README.md	/^# website$/;"	c
 x	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.e
 z	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:t.stemmer
+zola-continue-reading	themes/elementar/sass/_zola.scss	/^p#zola-continue-reading > a {$/;"	i
 {{ page.title }}	themes/elementar/templates/page.html	/^    <h1 itemprop="headline">{{ page.title }}<\/h1>$/;"	h
+{{ page.title }} {{ self::meta(page=page) }}	themes/elementar/templates/post_macros.html	/^    <\/h1>$/;"	h

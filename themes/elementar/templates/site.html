@@ -19,16 +19,36 @@
       {{ config.title }}
       {%- endblock title -%}
     </title>
+
+    {% block css -%}
+      <link id="style-dark" rel="stylesheet" href="{{ get_url(path="site_dark.css", trailing_slash=false) | safe }}">
+    {% endblock css %}
+    {%- block extra_head %}
+    {% endblock extra_head %}
   </head>
   <body>
     {% block main %}
     <main>
-      <conten>
-      {% block body -%}{%- endblock body %}
-
-      {% block page_footer %}{% endblock page_footer %}
+      <content>
+        {% block body -%}{%- endblock body %} {% block page_footer %}{% endblock
+        page_footer %}
       </content>
-      <sidebar>TODO Sidebar</sidebar>
+      <sidebar>
+        {# categories #} {% set categories = get_taxonomy(kind="categories") %}
+        {% if categories.items | length > 0 -%}
+        <section class="categories">
+          <h1><a href="/categories">Categories</a></h1>
+          <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+            <ul>
+              {% for category in categories.items %}
+              <li>
+                <a itemprop="url" href="{{ category.permalink | safe }}" class="{% if category.permalink | replace(from="$BASE_URL", to=config.base_url) == current_url %}active{% endif %}"><span itemprop="name">{{ category.name | title }}</span></a></li>
+              {% endfor %}
+            </ul>
+          </nav>
+        </section>
+        {%- endif %}
+      </sidebar>
     </main>
     {% endblock main %}
   </body>
