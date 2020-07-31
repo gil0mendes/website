@@ -26,13 +26,16 @@
 .anchor:focus	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	c
 .anchor:focus	themes/elementar/sass/_components.scss	/^.anchor:focus {$/;"	c
 .comments-container	themes/elementar/sass/_components.scss	/^    .comments-container {$/;"	c
+.links	themes/elementar/sass/_responsive.scss	/^  header#banner .links {$/;"	c
 .logo	themes/elementar/sass/_components.scss	/^header#banner .logo {$/;"	c
+.logo	themes/elementar/sass/_responsive.scss	/^  header#banner .logo {$/;"	c
 .meta	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	c
 .meta	themes/elementar/sass/_components.scss	/^.meta {$/;"	c
 .muted	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	c
 .muted	themes/elementar/sass/_components.scss	/^.muted {$/;"	c
 .muted	themes/elementar/sass/_icons.scss	/^.muted #glyphicons-halflings {$/;"	c
 .muted #glyphicons-halflings	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	i
+.notransition	themes/elementar/sass/_base.scss	/^.notransition * {$/;"	c
 .single	themes/elementar/sass/_layout.scss	/^article.single {$/;"	c
 .sub	themes/elementar/sass/_layout.scss	/^    li.sub > a {$/;"	c
 .tag	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	c
@@ -79,6 +82,7 @@
 1:1111/blog/initial/	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.i.n.i.t.i.docs.http://127.0.0
 1:1111/blog/initial/	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.title.root.i.n.i.t.i.docs.http://127.0.0
 404 Not Found	public/404.html	/^<h1>404 Not Found<\/h1>$/;"	h
+About	public/about/index.html	/^          <\/h1>$/;"	h
 AnonymousFunctionb92eb4960100	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:t.utils.warn
 AnonymousFunctionb92eb4960200	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	c
 AnonymousFunctionb92eb4960300	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:events
@@ -101,6 +105,7 @@ AnonymousFunctionb92eb4961300	public/elasticlunr.min.js	/^!function(){function e
 AnonymousFunctionb92eb4961400	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	c	class:e
 AnonymousFunctionb92eb4961500	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	c
 AnonymousFunctionb92eb4961600	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f
+Blog	public/blog/index.html	/^              Blog<\/h1><\/header>$/;"	h
 Categories	public/about/index.html	/^          <h1><a href="\/categories">Categories<\/a><\/h1>$/;"	h
 Categories	public/blog/index.html	/^          <h1><a href="\/categories">Categories<\/a><\/h1>$/;"	h
 Categories	public/blog/initial/index.html	/^          <h1><a href="\/categories">Categories<\/a><\/h1>$/;"	h
@@ -117,13 +122,21 @@ Configuration	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e|
 Contents	themes/elementar/templates/site.html	/^            <h1>Contents<\/h1>$/;"	h
 DocumentStore	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	c	class:t
 EventEmitter	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	c	class:t
+Homepage	public/index.html	/^              Homepage<\/h1><\/header>$/;"	h
 Index	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	c	class:t
+Initial	public/blog/initial/index.html	/^          <\/h1>$/;"	h
 Initial 1 minute read Published: 2020-07-21	public/blog/index.html	/^    <\/h1>$/;"	h
 Initial 1 minute read Published: 2020-07-21	public/categories/blog/index.html	/^    <\/h1>$/;"	h
 InvertedIndex	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	c	class:t
 Pipeline	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	c	class:t
 Pipeline	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:t
 SortedSet	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	c	class:lunr
+Tags	public/about/index.html	/^          <h1><a href="\/tags">Tags<\/a><\/h1>$/;"	h
+Tags	public/blog/index.html	/^          <h1><a href="\/tags">Tags<\/a><\/h1>$/;"	h
+Tags	public/blog/initial/index.html	/^          <h1><a href="\/tags">Tags<\/a><\/h1>$/;"	h
+Tags	public/categories/blog/index.html	/^          <h1><a href="\/tags">Tags<\/a><\/h1>$/;"	h
+Tags	public/categories/index.html	/^          <h1><a href="\/tags">Tags<\/a><\/h1>$/;"	h
+Tags	public/index.html	/^          <h1><a href="\/tags">Tags<\/a><\/h1>$/;"	h
 Tags	themes/elementar/templates/site.html	/^          <h1><a href="\/tags">Tags<\/a><\/h1>$/;"	h
 a	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
 a	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root
@@ -180,7 +193,16 @@ ator	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"
 b	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root
 b	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.w.e
 b	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.title.root
+banner	public/about/index.html	/^      <header id="banner">$/;"	I
+banner	public/blog/index.html	/^      <header id="banner">$/;"	I
+banner	public/blog/initial/index.html	/^      <header id="banner">$/;"	I
+banner	public/categories/blog/index.html	/^      <header id="banner">$/;"	I
+banner	public/categories/index.html	/^      <header id="banner">$/;"	I
+banner	public/index.html	/^<header id="banner">$/;"	I
 banner	themes/elementar/sass/_components.scss	/^header#banner .logo {$/;"	i
+banner	themes/elementar/sass/_responsive.scss	/^  header#banner .links {$/;"	i
+banner	themes/elementar/sass/_responsive.scss	/^  header#banner .logo {$/;"	i
+banner	themes/elementar/sass/_responsive.scss	/^  header#banner {$/;"	i
 banner	themes/elementar/templates/landing.html	/^<header id="banner">$/;"	I
 banner	themes/elementar/templates/site.html	/^      <header id="banner">$/;"	I
 be	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
@@ -267,6 +289,14 @@ content>header h3	public/site_dark.css	/^html{font-size:16px}body{width:100%;mar
 content>header h4	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
 content>header h5	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
 content>header h6	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+contrast	public/about/index.html	/^  <path id="contrast" d="M10,2a8,8,0,1,0,8,8A8.00917,8.00917,0,0,0,10,2Zm0,14A6,6,0,0,1,10,4Z"\//;"	I
+contrast	public/blog/index.html	/^  <path id="contrast" d="M10,2a8,8,0,1,0,8,8A8.00917,8.00917,0,0,0,10,2Zm0,14A6,6,0,0,1,10,4Z"\//;"	I
+contrast	public/blog/initial/index.html	/^  <path id="contrast" d="M10,2a8,8,0,1,0,8,8A8.00917,8.00917,0,0,0,10,2Zm0,14A6,6,0,0,1,10,4Z"\//;"	I
+contrast	public/categories/blog/index.html	/^  <path id="contrast" d="M10,2a8,8,0,1,0,8,8A8.00917,8.00917,0,0,0,10,2Zm0,14A6,6,0,0,1,10,4Z"\//;"	I
+contrast	public/categories/index.html	/^  <path id="contrast" d="M10,2a8,8,0,1,0,8,8A8.00917,8.00917,0,0,0,10,2Zm0,14A6,6,0,0,1,10,4Z"\//;"	I
+contrast	public/icons/contrast.svg	/^  <path id="contrast" d="M10,2a8,8,0,1,0,8,8A8.00917,8.00917,0,0,0,10,2Zm0,14A6,6,0,0,1,10,4Z"\//;"	i
+contrast	public/index.html	/^  <path id="contrast" d="M10,2a8,8,0,1,0,8,8A8.00917,8.00917,0,0,0,10,2Zm0,14A6,6,0,0,1,10,4Z"\//;"	I
+contrast	static/icons/contrast.svg	/^  <path id="contrast" d="M10,2a8,8,0,1,0,8,8A8.00917,8.00917,0,0,0,10,2Zm0,14A6,6,0,0,1,10,4Z"\//;"	i
 coordNorm	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	m	class:t.Index
 could	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
 d	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root
@@ -575,12 +605,20 @@ getNode	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"obje
 getRegisteredFunction	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:t.Pipeline
 getSeperator	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:t.tokenizer
 getTermFrequency	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	m	class:t.InvertedIndex
+glyphicons-halflings	public/about/index.html	/^          <svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 /;"	I
+glyphicons-halflings	public/blog/index.html	/^          <svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 /;"	I
 glyphicons-halflings	public/blog/index.html	/^    <svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 20">$/;"	I
+glyphicons-halflings	public/blog/initial/index.html	/^          <svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 /;"	I
+glyphicons-halflings	public/categories/blog/index.html	/^          <svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 /;"	I
 glyphicons-halflings	public/categories/blog/index.html	/^    <svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 20">$/;"	I
+glyphicons-halflings	public/categories/index.html	/^          <svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 /;"	I
 glyphicons-halflings	public/icons/calendar.svg	/^<svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 20">$/;"	i
 glyphicons-halflings	public/icons/clock.svg	/^<svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 20">$/;"	i
+glyphicons-halflings	public/icons/contrast.svg	/^<svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 20">$/;"	i
+glyphicons-halflings	public/index.html	/^          <svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 /;"	I
 glyphicons-halflings	static/icons/calendar.svg	/^<svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 20">$/;"	i
 glyphicons-halflings	static/icons/clock.svg	/^<svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 20">$/;"	i
+glyphicons-halflings	static/icons/contrast.svg	/^<svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 20">$/;"	i
 glyphicons-halflings	themes/elementar/sass/_icons.scss	/^  #glyphicons-halflings {$/;"	i
 glyphicons-halflings	themes/elementar/sass/_icons.scss	/^#glyphicons-halflings {$/;"	i
 glyphicons-halflings	themes/elementar/sass/_icons.scss	/^.muted #glyphicons-halflings {$/;"	i
@@ -594,6 +632,7 @@ h2	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font
 h2 #glyphicons-halflings	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	i
 h3	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
 h3 #glyphicons-halflings	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	i
+h4	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
 h4 #glyphicons-halflings	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	i
 h5 #glyphicons-halflings	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	i
 h6 #glyphicons-halflings	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	i
@@ -659,6 +698,36 @@ m	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"p
 m	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.w.e.l.c.o
 m	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.title.root.h.o
 main	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+main h1	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+main h1 a	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+main h1 a:active	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+main h1 a:focus	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+main h1 a:focus:hover	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+main h2	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+main h2 a	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+main h2 a:active	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+main h2 a:focus	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+main h2 a:focus:hover	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+main h3	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+main h3 a	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+main h3 a:active	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+main h3 a:focus	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+main h3 a:focus:hover	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+main h4	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+main h4 a	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+main h4 a:active	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+main h4 a:focus	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+main h4 a:focus:hover	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+main h5	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+main h5 a	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+main h5 a:active	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+main h5 a:focus	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+main h5 a:focus:hover	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+main h6	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+main h6 a	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+main h6 a:active	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+main h6 a:focus	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
+main h6 a:focus:hover	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
 map	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	m	class:lunr.SortedSet
 mergeScores	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	m	class:t.Index
 n	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.c.u.r.r.e
@@ -670,6 +739,8 @@ n	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"p
 ness	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.stemmer.t
 ns04227bb60101	public/icons/calendar.svg	/^<svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 20">$/;"	n	uri:http://www.w3.org/2000/svg
 ns06aeb41f0101	static/icons/calendar.svg	/^<svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 20">$/;"	n	uri:http://www.w3.org/2000/svg
+ns1ecdd02a0101	public/icons/contrast.svg	/^<svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 20">$/;"	n	uri:http://www.w3.org/2000/svg
+ns215a08930101	static/icons/contrast.svg	/^<svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 20">$/;"	n	uri:http://www.w3.org/2000/svg
 ns705935650101	public/sitemap.xml	/^<urlset xmlns="http:\/\/www.sitemaps.org\/schemas\/sitemap\/0.9">$/;"	n	uri:http://www.sitemaps.org/schemas/sitemap/0.9
 nsbbbfd7b10101	static/icons/clock.svg	/^<svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 20">$/;"	n	uri:http://www.w3.org/2000/svg
 nsfa1beea80101	public/icons/clock.svg	/^<svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 20">$/;"	n	uri:http://www.w3.org/2000/svg
@@ -744,6 +815,7 @@ sidebar>section ul li a	public/site_dark.css	/^html{font-size:16px}body{width:10
 sidebar>section ul li a.active	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	c
 sidebar>section ul li a:active	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
 sidebar>section ul li.sub>a	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	c
+sidebar>section>nav>ul	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
 sidebar>section>ul	public/site_dark.css	/^html{font-size:16px}body{width:100%;margin:0 auto;font-family:"Source Sans Pro",Ubuntu,sans-seri/;"	s
 stemmer	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:t
 stopWordFilter	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:t
