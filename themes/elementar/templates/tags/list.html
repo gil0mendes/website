@@ -1,0 +1,15 @@
+{% extends "site.html" %} {% block body %}
+<header>
+  <h1>Tags</h1>
+</header>
+
+{% if terms %}
+<ul>
+  {% for term in terms %}
+  <li>
+    <a href="{{ term.permalink | safe }}" class="tag">{{ term.name }}</a>
+    {{ term.pages | length }} articles{{ term.pages | length | pluralize }}
+  </li>
+  {% endfor %}
+</ul>
+{% endif %} {% endblock body %}
