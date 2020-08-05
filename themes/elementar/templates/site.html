@@ -22,7 +22,12 @@
 
     {% block css -%}
       <link id="style-dark" rel="stylesheet" href="{{ get_url(path="site_dark.css", trailing_slash=false) | safe }}">
+      <link id="style-light" disabled rel="stylesheet" href="{{ get_url(path="site_light.css", trailing_slash=false) | safe }}">
     {% endblock css %}
+
+    {% block js -%}
+      <script src="{{ get_url(path="js/theme.js", trailing_slash=false) | safe }}"></script>
+    {% endblock js %}
     {%- block extra_head %}
     {% endblock extra_head %}
   </head>
@@ -38,7 +43,7 @@
     {% block main %}
     <main>
       <content>
-        <a href="#" class="theme-toggle" onclick="theme_toggle(); return false;" title="Toggle light/dark mode">
+        <a href="#" class="theme-toggle" title="Toggle light/dark mode">
           {{ load_data(path="static/icons/contrast.svg") | safe -}}
         </a>
 
