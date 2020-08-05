@@ -10,7 +10,7 @@ default_language = "en"
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 highlight_code = true
-generate_rss = true
+generate_feed = true
 build_search_index = true
 check_external_links = false
 
