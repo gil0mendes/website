@@ -62,6 +62,7 @@
                     &nbsp;&middot;&nbsp; Page {{ paginator.current_index }}
                   {% endif %}
               {%- endif -%}
+              {%- include "anchor-link.html" -%}
             </h1>
             {%- if not section.extra.elementar_hide_header_meta -%}
               {%- block header_meta -%}{%- endblock header_meta -%}
