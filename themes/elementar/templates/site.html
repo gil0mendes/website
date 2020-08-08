@@ -23,10 +23,18 @@
     {% block css -%}
       <link id="style-dark" rel="stylesheet" href="{{ get_url(path="site_dark.css", trailing_slash=false) | safe }}">
       <link id="style-light" disabled rel="stylesheet" href="{{ get_url(path="site_light.css", trailing_slash=false) | safe }}">
+
+      {% if page.extra.applause %}
+      <link rel="stylesheet" href="https://unpkg.com/applause-button/dist/applause-button.css" />
+      {% endif %}
     {% endblock css %}
 
     {% block js -%}
       <script src="{{ get_url(path="js/theme.js", trailing_slash=false) | safe }}"></script>
+
+      {% if page.extra.applause %}
+        <script src="https://unpkg.com/applause-button/dist/applause-button.js"></script>
+      {% endif %}
     {% endblock js %}
 
     {% if config.generate_feed -%}

@@ -1,12 +1,17 @@
-{% extends "site.html" %} {% import "post_macros.html" as post_macros %} {%
-block body %}
+{% extends "site.html" %}
+
+{% import "post_macros.html" as post_macros %}
+
+{% block body %}
 <header>
   <h1>Category: {{ term.name | title }}</h1>
 </header>
+  {% for page in term.pages %}
+  {{ post_macros::page_in_list(page=page) }}
+  {% endfor %}
+{% endblock body %}
 
-{% for page in term.pages %}
-{{ post_macros::page_in_list(page=page) }}
-{% endfor %} {% endblock body %} {% block page_footer %}
+{% block page_footer %}
 <footer class="muted">
   <p>
     <a href="./rss.xml" title="RSS feed for this category">RSS</a>
