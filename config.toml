@@ -14,6 +14,8 @@ generate_feed = true
 build_search_index = true
 check_external_links = false
 
+insert_anchor_links = "right"
+
 taxonomies = [
   { name = "categories", paginate_by = 5, rss = true },
   { name = "tags", paginate_by = 5, rss = true },

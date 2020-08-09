@@ -45,6 +45,7 @@
     {%- block extra_head %}
     {% endblock extra_head %}
   </head>
+
   <body>
     {% if config.extra.elementar_title %}
       {% block header %}
@@ -61,21 +62,23 @@
           {{ load_data(path="static/icons/contrast.svg") | safe -}}
         </a>
 
-        {% if section.title %}
+        {% if section.title -%}
           <header>
-            <h1>
-              {{ section.title }}
-              {%- if paginator -%}
-                {% if paginator.current_index > 1 %}
-                    &nbsp;&middot;&nbsp; Page {{ paginator.current_index }}
-                  {% endif %}
-              {%- endif -%}
-            </h1>
-            {%- if not section.extra.elementar_hide_header_meta -%}
-              {%- block header_meta -%}{%- endblock header_meta -%}
-            {%- endif -%}
+              <h1>
+                  {{ section.title }}
+                  {%- if paginator -%}
+                      {% if paginator.current_index > 1 %}
+                          &nbsp;&middot;&nbsp; Page {{ paginator.current_index }}
+                      {% endif %}
+                  {%- endif -%}
+              </h1>
+
+              {%- if not section.extra.elementar_hide_header_meta -%}
+                  {%- block header_meta -%}{%- endblock header_meta -%}
+              {%- endif %}
           </header>
-        {% endif %}
+        {%- endif %}
+
         {% if page.title -%}
         <header>
           <h1>
