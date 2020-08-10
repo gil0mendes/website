@@ -20,6 +20,9 @@ services:
         delay: 5s
         max_attempts: 3
         window: 120s
+      placement:
+        constraints:
+          - node.hostname==radon
       labels:
         - "traefik.enable=true"
         - "traefik.http.routers.gilmendeswebsite.rule=Host(`gil0mendes.io`)"
