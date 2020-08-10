@@ -3,12 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="HandhelfFriendly" content="True" />
 
+    <meta name="HandhelfFriendly" content="True" />
     <link rel="icon" type="image/png" href="/favicon.png" />
 
     <meta name="application-name" content="{{ config.title }}" />
     <meta name="author" content="{{ config.extra.author }}" />
+
+    {% if page.title -%}
+      <meta name="title" content="{{ page.title }}" />
+      <meta name="og:title" content="{{ page.title }}" />
+    {%- elif section.title -%}
+      <meta name="title" content="{{ section.title }}" />
+      <meta name="og:title" content="{{ section.title }}" />
+    {%- else -%}
+      <meta name="title" content="{{ config.title }}" />
+      <meta name="og:title" content="{{ config.title }}" />
+    {%- endif %}
+
+    {% if page.description -%}
+      <meta name="description" content="{{ page.description }}" />
+      <meta name="og:description" content="{{ page.description }}" />
+    {%- elif section.description -%}
+      <meta name="description" content="{{ section.description }}" />
+      <meta name="og:description" content="{{ section.description }}" />
+    {%- else -%}
+      <meta name="description" content="{{ config.description }}" />
+      <meta name="og:description" content="{{ config.description }}" />
+    {%- endif %}
+
+    {% if page.permalink -%}
+      <meta name="og:permalink" content="{{ page.permalink }}" />
+    {%- elif section.permalink -%}
+      <meta name="og:permalink" content="{{ section.permalink }}" />
+    {%- endif %}
+
+    {% set keywords = [] -%}
+    {%- if page.taxonomies.tags -%}
+        {% set_global keywords = page.taxonomies.tags %}
+    {%- endif -%}
+    {%- if keywords | length == 0 -%}
+        {%- set tags = get_taxonomy(kind="tags") -%}
+        {%- if tags.items | length > 0 -%}
+            {%- for tag in tags.items -%}
+                {%- set_global keywords = keywords | concat(with=tag.name) -%}
+            {%- endfor -%}
+        {%- endif -%}
+    {%- endif -%}
+    {%- if keywords | length > 0 -%}
+        <meta name="keywords" content="{{ keywords | join(sep=",") }}"/>
+    {%- endif %}
 
     <title>
       {%- block title -%} {%- if page.title -%}

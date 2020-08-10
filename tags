@@ -30,6 +30,9 @@
 .anchor:focus	public/site_dark.css	/^html{font-size:16px}body{width:100%;max-width:1150px;margin:0 auto;font-family:"Source Sans Pro"/;"	c
 .anchor:focus	public/site_light.css	/^html{font-size:16px}body{width:100%;max-width:1150px;margin:0 auto;font-family:"Source Sans Pro"/;"	c
 .anchor:focus	themes/elementar/sass/_components.scss	/^.anchor:focus {$/;"	c
+.applause-wrapper	public/site_dark.css	/^html{font-size:16px}body{width:100%;max-width:1150px;margin:0 auto;font-family:"Source Sans Pro"/;"	c
+.applause-wrapper	public/site_light.css	/^html{font-size:16px}body{width:100%;max-width:1150px;margin:0 auto;font-family:"Source Sans Pro"/;"	c
+.applause-wrapper	themes/elementar/sass/_applause.scss	/^.applause-wrapper {$/;"	c
 .comments-container	themes/elementar/sass/_components.scss	/^    .comments-container {$/;"	c
 .links	themes/elementar/sass/_responsive.scss	/^  header#banner .links {$/;"	c
 .logo	themes/elementar/sass/_components.scss	/^header#banner .logo {$/;"	c
@@ -67,18 +70,26 @@
 1:1111/	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.d.o.docs.http://127.0.0
 1:1111/	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.d.o.n.'.t.docs.http://127.0.0
 1:1111/	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.e.x.p.e.c.t.docs.http://127.0.0
+1:1111/	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.f.i.n.d.docs.http://127.0.0
+1:1111/	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.f.o.l.l.o.w.docs.http://127.0.0
 1:1111/	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.f.r.e.e.docs.http://127.0.0
+1:1111/	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.g.i.t.h.u.b.docs.http://127.0.0
+1:1111/	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.g.i.t.l.a.b.docs.http://127.0.0
 1:1111/	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.h.o.m.e.p.a.g.docs.http://127.0.0
 1:1111/	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.i.'.m.docs.http://127.0.0
 1:1111/	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.i.d.e.i.a.docs.http://127.0.0
+1:1111/	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.o.n.l.i.n.docs.http://127.0.0
 1:1111/	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.o.u.t.docs.http://127.0.0
 1:1111/	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.p.e.r.s.o.n.docs.http://127.0.0
 1:1111/	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.p.l.a.c.e.docs.http://127.0.0
+1:1111/	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.p.l.a.t.f.o.r.m.docs.http://127.0.0
 1:1111/	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.p.u.t.docs.http://127.0.0
 1:1111/	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.s.h.o.w.docs.http://127.0.0
 1:1111/	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.s.t.u.f.f.docs.http://127.0.0
 1:1111/	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.t.e.c.h.n.i.c.docs.http://127.0.0
 1:1111/	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.t.i.m.e.docs.http://127.0.0
+1:1111/	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.t.w.i.t.t.e.r.docs.http://127.0.0
+1:1111/	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.w.a.y.docs.http://127.0.0
 1:1111/	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.w.e.b.s.i.t.docs.http://127.0.0
 1:1111/	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.w.e.l.c.o.m.docs.http://127.0.0
 1:1111/	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.title.root.h.o.m.e.p.a.g.docs.http://127.0.0
@@ -163,9 +174,11 @@ Tags	themes/elementar/templates/tags/list.html	/^  <h1>Tags<\/h1>$/;"	h
 a	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
 a	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root
 a	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.e.x
+a	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.g.i.t.l
 a	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.h.o.m.e.p
 a	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.i.d.e.i
 a	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.p.l
+a	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.w
 a	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.title.root.h.o.m.e.p
 a	public/site_dark.css	/^html{font-size:16px}body{width:100%;max-width:1150px;margin:0 auto;font-family:"Source Sans Pro"/;"	s
 a	public/site_light.css	/^html{font-size:16px}body{width:100%;max-width:1150px;margin:0 auto;font-family:"Source Sans Pro"/;"	s
@@ -209,6 +222,8 @@ an	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=
 anci	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.stemmer.e
 and	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
 any	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
+applause-button	public/site_dark.css	/^html{font-size:16px}body{width:100%;max-width:1150px;margin:0 auto;font-family:"Source Sans Pro"/;"	s
+applause-button	public/site_light.css	/^html{font-size:16px}body{width:100%;max-width:1150px;margin:0 auto;font-family:"Source Sans Pro"/;"	s
 are	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
 article	public/site_dark.css	/^html{font-size:16px}body{width:100%;max-width:1150px;margin:0 auto;font-family:"Source Sans Pro"/;"	s
 article	public/site_light.css	/^html{font-size:16px}body{width:100%;max-width:1150px;margin:0 auto;font-family:"Source Sans Pro"/;"	s
@@ -224,6 +239,8 @@ ative	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object
 atom	themes/elementar/templates/rss.xml	/^<rss xmlns:atom="http:\/\/www.w3.org\/2005\/Atom" version="2.0">$/;"	n	uri:http://www.w3.org/2005/Atom
 ator	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.stemmer.e
 b	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root
+b	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.g.i.t.h.u
+b	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.g.i.t.l.a
 b	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.w.e
 b	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.title.root
 banner	public/about/index.html	/^      <header id="banner">$/;"	I
@@ -277,6 +294,7 @@ c	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"p
 c	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.t.e.c.h.n.i
 c	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.w.e.l
 calendar	public/blog/index.html	/^  <path id="calendar" d="M9,8.5v1a.5.5,0,0,1-.5.5h-1A.5.5,0,0,1,7,9.5v-1A.5.5,0,0,1,7.5,8h1A.5.5/;"	I
+calendar	public/blog/initial/index.html	/^  <path id="calendar" d="M9,8.5v1a.5.5,0,0,1-.5.5h-1A.5.5,0,0,1,7,9.5v-1A.5.5,0,0,1,7.5,8h1A.5.5/;"	I
 calendar	public/categories/blog/index.html	/^  <path id="calendar" d="M9,8.5v1a.5.5,0,0,1-.5.5h-1A.5.5,0,0,1,7,9.5v-1A.5.5,0,0,1,7.5,8h1A.5.5/;"	I
 calendar	public/icons/calendar.svg	/^  <path id="calendar" d="M9,8.5v1a.5.5,0,0,1-.5.5h-1A.5.5,0,0,1,7,9.5v-1A.5.5,0,0,1,7.5,8h1A.5.5/;"	i
 calendar	public/tags/example/index.html	/^  <path id="calendar" d="M9,8.5v1a.5.5,0,0,1-.5.5h-1A.5.5,0,0,1,7,9.5v-1A.5.5,0,0,1,7.5,8h1A.5.5/;"	I
@@ -284,7 +302,9 @@ calendar	static/icons/calendar.svg	/^  <path id="calendar" d="M9,8.5v1a.5.5,0,0,
 can	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
 cannot	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
 clearStopWords	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:t
+clock	public/about/index.html	/^  <path id="clock" d="M11,7v3a.99943.99943,0,0,1-1,1H8A1,1,0,0,1,8,9H9V7a1,1,0,0,1,2,0Zm7,3a8,8,/;"	I
 clock	public/blog/index.html	/^  <path id="clock" d="M11,7v3a.99943.99943,0,0,1-1,1H8A1,1,0,0,1,8,9H9V7a1,1,0,0,1,2,0Zm7,3a8,8,/;"	I
+clock	public/blog/initial/index.html	/^  <path id="clock" d="M11,7v3a.99943.99943,0,0,1-1,1H8A1,1,0,0,1,8,9H9V7a1,1,0,0,1,2,0Zm7,3a8,8,/;"	I
 clock	public/categories/blog/index.html	/^  <path id="clock" d="M11,7v3a.99943.99943,0,0,1-1,1H8A1,1,0,0,1,8,9H9V7a1,1,0,0,1,2,0Zm7,3a8,8,/;"	I
 clock	public/icons/clock.svg	/^  <path id="clock" d="M11,7v3a.99943.99943,0,0,1-1,1H8A1,1,0,0,1,8,9H9V7a1,1,0,0,1,2,0Zm7,3a8,8,/;"	i
 clock	public/tags/example/index.html	/^  <path id="clock" d="M11,7v3a.99943.99943,0,0,1-1,1H8A1,1,0,0,1,8,9H9V7a1,1,0,0,1,2,0Zm7,3a8,8,/;"	I
@@ -376,6 +396,7 @@ contrast	static/icons/contrast.svg	/^  <path id="contrast" d="M10,2a8,8,0,1,0,8,
 coordNorm	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	m	class:t.Index
 could	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
 d	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root
+d	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.f.i.n
 d	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.i
 dark	themes/elementar/sass/_dark_config.scss	/^$dark: true;$/;"	v
 dark	themes/elementar/sass/_light_config.scss	/^$dark: false;$/;"	v
@@ -418,9 +439,26 @@ df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"
 df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.e.x.p.e.c
 df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.e.x.p.e.c.t
 df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.f
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.f.i
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.f.i.n
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.f.i.n.d
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.f.o
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.f.o.l
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.f.o.l.l
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.f.o.l.l.o
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.f.o.l.l.o.w
 df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.f.r
 df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.f.r.e
 df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.f.r.e.e
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.g
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.g.i
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.g.i.t
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.g.i.t.h
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.g.i.t.h.u
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.g.i.t.h.u.b
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.g.i.t.l
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.g.i.t.l.a
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.g.i.t.l.a.b
 df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.h
 df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.h.o
 df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.h.o.m
@@ -440,6 +478,10 @@ df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"
 df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.i.n.i.t
 df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.i.n.i.t.i
 df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.o
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.o.n
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.o.n.l
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.o.n.l.i
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.o.n.l.i.n
 df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.o.u
 df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.o.u.t
 df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.p
@@ -452,6 +494,11 @@ df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"
 df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.p.l.a
 df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.p.l.a.c
 df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.p.l.a.c.e
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.p.l.a.t
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.p.l.a.t.f
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.p.l.a.t.f.o
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.p.l.a.t.f.o.r
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.p.l.a.t.f.o.r.m
 df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.p.u
 df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.p.u.t
 df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.s
@@ -472,7 +519,15 @@ df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"
 df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.t.i
 df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.t.i.m
 df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.t.i.m.e
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.t.w
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.t.w.i
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.t.w.i.t
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.t.w.i.t.t
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.t.w.i.t.t.e
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.t.w.i.t.t.e.r
 df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.w
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.w.a
+df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.w.a.y
 df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.w.e
 df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.w.e.b
 df	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.w.e.b.s
@@ -513,19 +568,27 @@ docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"]
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.d.o.n.'.t
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.e.x.a.m.p.l
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.e.x.p.e.c.t
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.f.i.n.d
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.f.o.l.l.o.w
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.f.r.e.e
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.g.i.t.h.u.b
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.g.i.t.l.a.b
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.h.o.m.e.p.a.g
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.i.'.m
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.i.d.e.i.a
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.i.n.i.t.i
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.o.n.l.i.n
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.o.u.t
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.p.e.r.s.o.n
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.p.l.a.c.e
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.p.l.a.t.f.o.r.m
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.p.u.t
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.s.h.o.w
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.s.t.u.f.f
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.t.e.c.h.n.i.c
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.t.i.m.e
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.t.w.i.t.t.e.r
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.w.a.y
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.w.e.b.s.i.t
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.w.e.l.c.o.m
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.title.root.b.l.o.g
@@ -559,8 +622,21 @@ docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"]
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.e.x.p.e
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.e.x.p.e.c
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.f
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.f.i
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.f.i.n
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.f.o
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.f.o.l
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.f.o.l.l
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.f.o.l.l.o
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.f.r
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.f.r.e
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.g
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.g.i
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.g.i.t
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.g.i.t.h
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.g.i.t.h.u
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.g.i.t.l
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.g.i.t.l.a
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.h
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.h.o
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.h.o.m
@@ -576,6 +652,9 @@ docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"]
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.i.n.i
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.i.n.i.t
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.o
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.o.n
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.o.n.l
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.o.n.l.i
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.o.u
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.p
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.p.e
@@ -585,6 +664,10 @@ docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"]
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.p.l
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.p.l.a
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.p.l.a.c
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.p.l.a.t
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.p.l.a.t.f
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.p.l.a.t.f.o
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.p.l.a.t.f.o.r
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.p.u
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.s
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.s.h
@@ -600,7 +683,13 @@ docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"]
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.t.e.c.h.n.i
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.t.i
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.t.i.m
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.t.w
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.t.w.i
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.t.w.i.t
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.t.w.i.t.t
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.t.w.i.t.t.e
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.w
+docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.w.a
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.w.e
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.w.e.b
 docs	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.w.e.b.s
@@ -637,6 +726,7 @@ e	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"p
 e	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.p.l.a.c
 e	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.t
 e	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.t.i.m
+e	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.t.w.i.t.t
 e	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.w
 e	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.title.root.h.o.m
 either	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.defaultStopWords
@@ -652,6 +742,7 @@ expand	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"objec
 expand	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.Configuration.buildUserConfig.config
 expandToken	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	m	class:t.InvertedIndex
 f	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root
+f	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.p.l.a.t
 f	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.s.t.u
 f	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.s.t.u.f
 fieldSearch	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	m	class:t.Index
@@ -670,6 +761,7 @@ from	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"
 from	themes/elementar/sass/_functions.scss	/^@function headings($from:1, $to:6, $prefix:"") {$/;"	z
 ful	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.stemmer.t
 fulness	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.stemmer.e
+g	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root
 g	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.b.l.o
 g	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.h.o.m.e.p.a
 g	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.title.root.b.l.o
@@ -684,9 +776,11 @@ getRegisteredFunction	public/elasticlunr.min.js	/^!function(){function e(e){if(n
 getSeperator	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:t.tokenizer
 getTermFrequency	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	m	class:t.InvertedIndex
 glyphicons-halflings	public/about/index.html	/^          <svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 /;"	I
+glyphicons-halflings	public/about/index.html	/^    <svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 20">$/;"	I
 glyphicons-halflings	public/blog/index.html	/^          <svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 /;"	I
 glyphicons-halflings	public/blog/index.html	/^    <svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 20">$/;"	I
 glyphicons-halflings	public/blog/initial/index.html	/^          <svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 /;"	I
+glyphicons-halflings	public/blog/initial/index.html	/^    <svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 20">$/;"	I
 glyphicons-halflings	public/categories/blog/index.html	/^          <svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 /;"	I
 glyphicons-halflings	public/categories/blog/index.html	/^    <svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 20">$/;"	I
 glyphicons-halflings	public/categories/index.html	/^          <svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 /;"	I
@@ -704,6 +798,7 @@ glyphicons-halflings	themes/elementar/sass/_icons.scss	/^  #glyphicons-halflings
 glyphicons-halflings	themes/elementar/sass/_icons.scss	/^#glyphicons-halflings {$/;"	i
 glyphicons-halflings	themes/elementar/sass/_icons.scss	/^.muted #glyphicons-halflings {$/;"	i
 h	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root
+h	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.g.i.t
 h	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.s
 h	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.t.e.c
 h	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.title.root
@@ -748,11 +843,15 @@ html	public/site_light.css	/^html{font-size:16px}body{width:100%;max-width:1150p
 i	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root
 i	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.a.r.t
 i	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.b
+i	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.f
+i	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.g
 i	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.i.d.e
 i	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.i.n
 i	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.i.n.i.t
+i	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.o.n.l
 i	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.t
 i	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.t.e.c.h.n
+i	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.t.w
 i	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.w.e.b.s
 i	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.title.root
 i	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.title.root.i.n
@@ -778,6 +877,10 @@ izer	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"
 l	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.a.r.t.i.c
 l	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.b
 l	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.e.x.a.m.p
+l	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.f.o
+l	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.f.o.l
+l	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.g.i.t
+l	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.o.n
 l	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.p
 l	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.w.e
 l	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.title.root.b
@@ -799,6 +902,7 @@ logo-color-hover	themes/elementar/sass/_light_config.scss	/^$logo-color-hover: l
 m	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.e.x.a
 m	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.h.o
 m	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.i.'
+m	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.p.l.a.t.f.o.r
 m	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.t.i
 m	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.w.e.l.c.o
 m	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.title.root.h.o
@@ -868,7 +972,10 @@ map	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!
 mergeScores	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	m	class:t.Index
 n	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.c.u.r.r.e
 n	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.d.o
+n	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.f.i
 n	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.i
+n	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.o
+n	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.o.n.l.i
 n	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.p.e.r.s.o
 n	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.t.e.c.h
 n	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.title.root.i
@@ -877,14 +984,18 @@ ns04227bb60101	public/icons/calendar.svg	/^<svg id="glyphicons-halflings" xmlns=
 ns06aeb41f0101	static/icons/calendar.svg	/^<svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 20">$/;"	n	uri:http://www.w3.org/2000/svg
 ns1ecdd02a0101	public/icons/contrast.svg	/^<svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 20">$/;"	n	uri:http://www.w3.org/2000/svg
 ns215a08930101	static/icons/contrast.svg	/^<svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 20">$/;"	n	uri:http://www.w3.org/2000/svg
+ns3cd350230101	public/atom.xml	/^<feed xmlns="http:\/\/www.w3.org\/2005\/Atom" xml:lang="en">$/;"	n	uri:http://www.w3.org/2005/Atom
 ns705935650101	public/sitemap.xml	/^<urlset xmlns="http:\/\/www.sitemaps.org\/schemas\/sitemap\/0.9">$/;"	n	uri:http://www.sitemaps.org/schemas/sitemap/0.9
 nsbbbfd7b10101	static/icons/clock.svg	/^<svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 20">$/;"	n	uri:http://www.w3.org/2000/svg
 nsfa1beea80101	public/icons/clock.svg	/^<svg id="glyphicons-halflings" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 20 20">$/;"	n	uri:http://www.w3.org/2000/svg
 o	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root
 o	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.b.l
 o	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.d
+o	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.f
+o	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.f.o.l.l
 o	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.h
 o	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.p.e.r.s
+o	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.p.l.a.t.f
 o	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.s.h
 o	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.w.e.l.c
 o	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.title.root.b.l
@@ -907,6 +1018,8 @@ r	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"p
 r	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.c.u.r
 r	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.f
 r	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.p.e
+r	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.p.l.a.t.f.o
+r	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.t.w.i.t.t.e
 ref	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:t.Index.search.v
 ref	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex
 registerFunction	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:t.Pipeline
@@ -1001,10 +1114,14 @@ t	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"p
 t	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.c.u.r.r.e.n
 t	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.d.o.n.'
 t	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.e.x.p.e.c
+t	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.g.i
 t	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.i.n.i
 t	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.o.u
+t	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.p.l.a
 t	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.p.u
 t	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.s
+t	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.t.w.i
+t	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.t.w.i.t
 t	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.w.e.b.s.i
 t	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.title.root.i.n.i
 tf	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	p	class:n.docs.docs
@@ -1016,19 +1133,27 @@ tf	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"
 tf	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.d.o.n.'.t.docs.http://127.0.0.1:1111/
 tf	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.e.x.a.m.p.l.docs.http://127.0.0.1:1111/blog/initial/
 tf	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.e.x.p.e.c.t.docs.http://127.0.0.1:1111/
+tf	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.f.i.n.d.docs.http://127.0.0.1:1111/
+tf	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.f.o.l.l.o.w.docs.http://127.0.0.1:1111/
 tf	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.f.r.e.e.docs.http://127.0.0.1:1111/
+tf	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.g.i.t.h.u.b.docs.http://127.0.0.1:1111/
+tf	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.g.i.t.l.a.b.docs.http://127.0.0.1:1111/
 tf	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.h.o.m.e.p.a.g.docs.http://127.0.0.1:1111/
 tf	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.i.'.m.docs.http://127.0.0.1:1111/
 tf	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.i.d.e.i.a.docs.http://127.0.0.1:1111/
 tf	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.i.n.i.t.i.docs.http://127.0.0.1:1111/blog/initial/
+tf	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.o.n.l.i.n.docs.http://127.0.0.1:1111/
 tf	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.o.u.t.docs.http://127.0.0.1:1111/
 tf	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.p.e.r.s.o.n.docs.http://127.0.0.1:1111/
 tf	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.p.l.a.c.e.docs.http://127.0.0.1:1111/
+tf	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.p.l.a.t.f.o.r.m.docs.http://127.0.0.1:1111/
 tf	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.p.u.t.docs.http://127.0.0.1:1111/
 tf	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.s.h.o.w.docs.http://127.0.0.1:1111/
 tf	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.s.t.u.f.f.docs.http://127.0.0.1:1111/
 tf	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.t.e.c.h.n.i.c.docs.http://127.0.0.1:1111/
 tf	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.t.i.m.e.docs.http://127.0.0.1:1111/
+tf	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.t.w.i.t.t.e.r.docs.http://127.0.0.1:1111/
+tf	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.w.a.y.docs.http://127.0.0.1:1111/
 tf	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.w.e.b.s.i.t.docs.http://127.0.0.1:1111/
 tf	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.body.root.w.e.l.c.o.m.docs.http://127.0.0.1:1111/
 tf	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex.index.title.root.b.l.o.g.docs.http://127.0.0.1:1111/blog/
@@ -1055,6 +1180,7 @@ toString	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"obj
 tokenizer	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:t
 trimmer	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:t
 u	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.c
+u	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.g.i.t.h
 u	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.o
 u	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.p
 u	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.s.t
@@ -1065,14 +1191,17 @@ use	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!
 v	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	c	class:t.Index.search
 version	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	p	class:window.searchIndex
 w	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root
+w	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.f.o.l.l.o
 w	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.s.h.o
+w	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.t
 warn	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:t.utils
 warnIfFunctionNotRegistered	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:t.Pipeline
 website	README.md	/^# website$/;"	c
 x	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.e
+y	public/search_index.en.js	/^window.searchIndex = {"fields":["title","body"],"pipeline":["trimmer","stopWordFilter","stemmer"/;"	c	class:window.searchIndex.index.body.root.w.a
 z	public/elasticlunr.min.js	/^!function(){function e(e){if(null===e||"object"!=typeof e)return e;var t=e.constructor();for(var/;"	f	function:t.stemmer
 zola-continue-reading	themes/elementar/sass/_zola.scss	/^p#zola-continue-reading > a {$/;"	i
 {{ page.title }}	themes/elementar/templates/page.html	/^    <h1 itemprop="headline">{{ page.title }}<\/h1>$/;"	h
 {{ page.title }}	themes/elementar/templates/post_macros.html	/^    <\/h1>$/;"	h
 {{ page.title }}	themes/elementar/templates/site.html	/^          <\/h1>$/;"	h
-{{ section.title }} {%- if paginator -%} {% if paginator.current_index > 1 %} &nbsp;&middot;&nbsp; Page {{ paginator.current_index }} {% endif %} {%- endif -%}	themes/elementar/templates/site.html	/^            <\/h1>$/;"	h
+{{ section.title }} {%- if paginator -%} {% if paginator.current_index > 1 %} &nbsp;&middot;&nbsp; Page {{ paginator.current_index }} {% endif %} {%- endif -%} {%- include "anchor-link.html" -%}	themes/elementar/templates/site.html	/^            <\/h1>$/;"	h
