@@ -3,7 +3,7 @@ title = "A place for me"
 
 [taxonomies]
 categories = ["blog"]
-tags = ["example"]
+tags = []
 
 [extra]
 comments=true

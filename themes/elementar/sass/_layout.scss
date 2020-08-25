@@ -72,6 +72,18 @@ article.single {
   padding: 0.5em 0;
 }
 
+figure {
+  margin-left: 0;
+  margin-right: 0;
+
+  figcaption {
+    font-family: $font-main;
+    font-size: $font-size-secondary;
+    text-align: center;
+    color: $color-text-secundary;
+  }
+}
+
 sidebar {
   font-family: $font-main;
   width: 20em;
