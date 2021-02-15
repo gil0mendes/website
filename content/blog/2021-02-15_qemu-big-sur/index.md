@@ -12,6 +12,8 @@ applause=true
 
 Apple releases a major version of their OS for Macs each year, but Big Sur was one of the more significant releases in the last decade. Big changes always break things, and this was no exception.
 
+<!-- more -->
+
 Trying to use QEMU after upgrading macOS to Big Sur or even installing an incremental update, QEMU will fail with the following error:
 ```
 qemu-system-x86_64: Error: HV_ERROR
