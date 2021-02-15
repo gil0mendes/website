@@ -4,7 +4,7 @@ description = "The objective is to create a UEFI application in Rust that prints
 
 [taxonomies]
 categories = ["blog"]
-tags = ["rust", "Development"]
+tags = ["rust", "development"]
 
 [extra]
 comments=true

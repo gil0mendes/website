@@ -22,6 +22,9 @@ taxonomies = [
   { name = "tags", paginate_by = 5, rss = true },
 ]
 
+[markdown]
+external_links_target_blank = true
+
 [extra]
 author = "Gil Mendes"
 
