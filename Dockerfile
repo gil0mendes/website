@@ -1,6 +1,6 @@
 FROM ubuntu:18.04 as build
 
-ARG ZOLA_VERSION=v0.10.2
+ARG ZOLA_VERSION=v0.13.0
 
 # Install CURL
 RUN apt-get update \
@@ -12,7 +12,7 @@ RUN apt-get update \
 WORKDIR /app
 
 # Install Zola
-RUN curl -L https://github.com/getzola/zola/releases/download/v0.11.0/zola-v0.11.0-x86_64-unknown-linux-gnu.tar.gz > zola.tar.gz \
+RUN curl -L https://github.com/getzola/zola/releases/download/v0.13.0/zola-v0.13.0-x86_64-unknown-linux-gnu.tar.gz > zola.tar.gz \
       && tar -xzf zola.tar.gz
 
 # build
