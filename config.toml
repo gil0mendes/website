@@ -5,7 +5,12 @@ title = "gil0mendes"
 description = "Gil Mendes personal website"
 
 theme = "elementar"
+
+# Language configurations
 default_language = "en"
+languages = [
+  { code = "pt", feed = true, search = true }
+]
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -16,8 +21,10 @@ check_external_links = false
 insert_anchor_links = "right"
 
 taxonomies = [
-  { name = "categories", paginate_by = 5, rss = true },
-  { name = "tags", paginate_by = 5, rss = true },
+  { name = "categories", paginate_by = 5, rss = true, lang = "en" },
+  { name = "categories", paginate_by = 5, rss = true, lang = "pt" },
+  { name = "tags", paginate_by = 5, rss = true, lang = "en" },
+  { name = "tags", paginate_by = 5, rss = true, lang = "pt" },
 ]
 
 [markdown]
@@ -30,6 +37,8 @@ author = "Gil Mendes"
 
 elementar_title = "Gil Mendes"
 elementar_menu = [
-  {url = "$BASE_URL/", name = "Home"},
-  {url = "$BASE_URL/blog", name = "Blog"},
+  {url = "$BASE_URL/", name = "Home", lang="en"},
+  {url = "$BASE_URL/pt", name = "Home", lang="pt"},
+  {url = "$BASE_URL/blog", name = "Blog", lang="en"},
+  {url = "$BASE_URL/pt/blog", name = "Blog", lang="pt"},
 ]

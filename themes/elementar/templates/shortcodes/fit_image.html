@@ -1,16 +1,23 @@
+{% set filename = path | split(pat="/") | last %}
+{% set meta = get_image_metadata(path=path) %}
+
 <p>
-  {% set filename = path | split(pat="/") | last %}
   <figure>
-    <a href="./{{ filename }}" alt="View full-size image">
-      {% set meta = get_image_metadata(path=path) %}
+    <a href="./{{ filename }}" alt="View full-size image">   
         {% if meta.width > 700 %}
         <img src="{{ resize_image(path=path, width=700, op="fit_width") }}" alt="{{ alt }}" />
         {% else %}
-        <img src="{{ page.permalink }}/{{ filename }}" alt="{{ alt }}" />
+        <img src="{{ resize_image(path=path, width=meta.width, op="fit_width") }}" alt="{{ alt }}" />
         {% endif %}
     </a>
     <figcaption>
+      {% if alt_link %}
+      <a href="{{ alt_link }}" target="_blank">
+      {% endif %}
       {{ alt }}
+      {% if alt_link %}
+      </a>
+      {% endif %}
     </figcaption>
   </figure>
 </p>
