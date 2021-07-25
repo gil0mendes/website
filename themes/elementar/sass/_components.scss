@@ -106,8 +106,16 @@ content {
     }
   }
 
-  figure img {
-    background-color: #f4f4f2;
+  figure {
+    a {
+      display: block;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+      background-color: #f4f4f2;
+    }
   }
 }
 
