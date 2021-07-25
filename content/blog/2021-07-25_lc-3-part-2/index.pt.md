@@ -192,7 +192,7 @@ pub struct Flags {
 
 # Conclusão
 
-Com isto terminamos de criar os componentes base do nosso emulador. No próximo post vamos olhar para alguns exemplos de assembly LC-3 e como implementar algumas das instruções.
+Com isto terminamos de criar os componentes base do nosso emulador. No próximo post vamos olhar para alguns exemplos de assembly LC-3 e como implementar algumas das instruções. Para ver todo o código implementado nesta parte um vasta [aceder ao GitHub](https://github.com/gil0mendes/rust-lc3/tree/part-1/).
 
 # Referencias
 
