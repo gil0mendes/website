@@ -1,14 +1,19 @@
 {% set filename = path | split(pat="/") | last %}
 {% set meta = get_image_metadata(path=path) %}
+{% set file_ext = filename | split (pat=".") | last %}
 
 <p>
   <figure>
     <a href="./{{ filename }}" alt="View full-size image">   
+      {% if file_ext == "svg" %}
+      <img src="{{ config.base_url }}/blog/{{ page.slug }}/{{ filename }}" alt="{{ alt }}" />
+      {%  else %}
         {% if meta.width > 700 %}
         <img src="{{ resize_image(path=path, width=700, op="fit_width") }}" alt="{{ alt }}" />
         {% else %}
         <img src="{{ resize_image(path=path, width=meta.width, op="fit_width") }}" alt="{{ alt }}" />
         {% endif %}
+      {% endif %}
     </a>
     <figcaption>
       {% if alt_link %}

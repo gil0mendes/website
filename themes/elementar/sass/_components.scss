@@ -2,34 +2,33 @@
  * Logo banner.
  */
 header#banner .logo {
-    display: inline-block;
-    margin: 0.5em 0;
-    padding: 1rem 1.75rem;
-    overflow: visible;
-    white-space: nowrap;
-    text-decoration: none;
-    user-select: none;
-    transition: border-color 0.2s ease-in-out,
-        color 0.2s ease-in-out,
-        background-color 0.2s ease-in-out;
-    color: $logo-color;
-    border: $logo-color solid 5px;
-    font-family: $font-logo;
-    font-size: 2rem;
-    font-weight: 700;
-    letter-spacing: 0.075em;
-    line-height: 1;
-    text-transform: uppercase;
+  display: inline-block;
+  margin: 0.5em 0;
+  padding: 1rem 1.75rem;
+  overflow: visible;
+  white-space: nowrap;
+  text-decoration: none;
+  user-select: none;
+  transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    background-color 0.2s ease-in-out;
+  color: $logo-color;
+  border: $logo-color solid 5px;
+  font-family: $font-logo;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.075em;
+  line-height: 1;
+  text-transform: uppercase;
 
-    &:hover {
-        border-color: $logo-color-hover !important;
-        color: $logo-color-hover !important;
-    }
-    &:active {
-        border-color: $logo-color-hover !important;        
-        color: $logo-color-hover !important;
-        background-color: rgba($logo-color-hover, 0.2) !important;
-    }
+  &:hover {
+    border-color: $logo-color-hover !important;
+    color: $logo-color-hover !important;
+  }
+  &:active {
+    border-color: $logo-color-hover !important;
+    color: $logo-color-hover !important;
+    background-color: rgba($logo-color-hover, 0.2) !important;
+  }
 }
 
 /**
@@ -37,84 +36,88 @@ header#banner .logo {
  */
 
 content {
-    img, video {
-        overflow: scroll;
-        max-width: 100%;
-        border-radius: 4px;
-    }
+  img,
+  video {
+    overflow: scroll;
+    max-width: 100%;
+    border-radius: 4px;
+  }
+
+  code {
+    padding: 0 0.25em;
+    display: inline-block;
+    font-family: $font-mono;
+    border-radius: 4px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  pre {
+    padding: 0.5em;
+    overflow: auto;
+    font-family: $font-mono;
+    box-sizing: border-box;
+    background-color: $color-main-bg-alt;
+    border: 1px solid $color-main-border;
+    box-shadow: 0 0 10px 5px rgba($color-main-border, 0.4);
+    border-radius: 4px;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease,
+      border 0.2s ease;
 
     code {
-        padding: 0 0.25em;
-        display: inline-block;
-        font-family: $font-mono;
-        border-radius: 4px;
-        transition: background-color 0.2s ease,
-            color 0.2s ease;
+      background-color: transparent;
     }
+  }
 
-    pre {
-        padding: 0.5em;
-        overflow: auto;
-        font-family: $font-mono;
-        box-sizing: border-box;
-        background-color: $color-main-bg-alt;
-        border: 1px solid $color-main-border;
-        box-shadow: 0 0 10px 5px rgba($color-main-border, 0.4);
-        border-radius: 4px;
-        transition: background-color 0.2s ease,
-            box-shadow 0.2s ease,
-            border 0.2s ease;
+  table {
+    display: block;
+    overflow: auto;
+    max-width: 100%;
+    border: 1px dashed $color-main-border;
+    border-spacing: 0.5em;
+    border-collapse: separate;
 
-        code {
-            background-color: transparent;
-        }
+    td {
+      min-width: 10em;
     }
+  }
 
-    table {
-        display: block;
-        overflow: auto;
-        max-width: 100%;
-        border: 1px dashed $color-main-border;
-        border-spacing: 0.5em;
-        border-collapse: separate;
+  iframe {
+    overflow: auto;
+    max-width: 100%;
+  }
 
-        td {
-            min-width: 10em;
-        }
+  blockquote {
+    border-left: 4px solid $color-main-bg-alt;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 1em;
+    transition: border 0.2s ease;
+  }
+
+  .comments-container {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: box-shadow 0.2s ease;
+
+    @if $dark == true {
+      box-shadow: inset 0 0 10px rgba($color-main-bg, 0.7),
+        0 0 10px rgba($color-main-border, 0.7);
     }
+  }
 
-    iframe {
-        overflow: auto;
-        max-width: 100%;
-    }
-
-    blockquote {
-        border-left: 4px solid $color-main-bg-alt;
-        margin-left: 0;
-        margin-right: 0;
-        padding-left: 1em;
-        transition: border 0.2s ease;
-    }
-
-    .comments-container {
-        padding: 10px;
-        background-color: #fff;
-        border-radius: 5px;
-        transition: box-shadow 0.2s ease;
-
-        @if $dark == true {
-            box-shadow: inset 0 0 10px rgba($color-main-bg, 0.7), 0 0 10px rgba($color-main-border, 0.7);
-        }
-    }
+  figure img {
+    background-color: #f4f4f2;
+  }
 }
 
 /**
  * Theme toggle button.
  */
 .theme-toggle {
-    font-size: 1.1rem;
-    line-height: 2.2em;
-    float: right;
+  font-size: 1.1rem;
+  line-height: 2.2em;
+  float: right;
 }
 
 /**
@@ -122,12 +125,12 @@ content {
  */
 
 .muted {
-    color: $color-text-muted;
-    transition: color 0.2s ease;
+  color: $color-text-muted;
+  transition: color 0.2s ease;
 }
 
 .meta {
-    font-family: $font-main;
+  font-family: $font-main;
 }
 
 /**
@@ -135,41 +138,41 @@ content {
  */
 
 .tags {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .tag {
-    display: inline-block;
-    border: 1px solid $color-main-border;
-    border-radius: 3px;
-    font-family: $font-main;
-    padding: 0.2em 0.4em;
-    line-height: 1;
-    margin: 0 0.2em 0.2em 0;
-    transition: box-shadow 0.2s ease,
-        background-color 0.2s ease,
-        border 0.2s ease;
+  display: inline-block;
+  border: 1px solid $color-main-border;
+  border-radius: 3px;
+  font-family: $font-main;
+  padding: 0.2em 0.4em;
+  line-height: 1;
+  margin: 0 0.2em 0.2em 0;
+  transition: box-shadow 0.2s ease, background-color 0.2s ease, border 0.2s ease;
 }
 
 a.tag {
-    &:hover, &:active, &:focus {
-        box-shadow: 0 0 10px 5px rgba($color-main-border, 0.3);
-    }
-    &:focus {
-        background-color: rgba($color-link, 0.1);
-    }
-    &:active {
-        background-color: rgba($color-link-hover, 0.2);
-    }
+  &:hover,
+  &:active,
+  &:focus {
+    box-shadow: 0 0 10px 5px rgba($color-main-border, 0.3);
+  }
+  &:focus {
+    background-color: rgba($color-link, 0.1);
+  }
+  &:active {
+    background-color: rgba($color-link-hover, 0.2);
+  }
 }
 
 content .tag {
-    background-color: $color-main-bg-alt;
+  background-color: $color-main-bg-alt;
 }
 
 sidebar .tag {
-    background-color: $color-main-bg;
+  background-color: $color-main-bg;
 }
 
 /**
@@ -177,13 +180,12 @@ sidebar .tag {
  */
 
 .anchor {
-    transition: opacity 0.2s ease;
-    opacity: 0;
+  transition: opacity 0.2s ease;
+  opacity: 0;
 }
 
 *:hover > .anchor,
 .anchor:active,
 .anchor:focus {
-    opacity: 1;
+  opacity: 1;
 }
-
