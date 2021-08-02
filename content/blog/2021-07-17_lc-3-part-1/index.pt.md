@@ -32,9 +32,9 @@ Alguns exemplos de emuladores são o [Mesen](https://www.mesen.ca/), um emulador
 
 # Simulação
 
-A criação de uso de simulações aparecem muito antes dos emuladores. O seu objetivo é simular com elevada previsão eventos reais de modo a saber os seus resultados. Estes sistemas chegaram a ser usados durante a Segunda Guerra Mundial, usando tubos de vácuo, para calcular trajetórias de projéteis e mesmo muitos outros resultados de diversas estratégias de guerra.
+A criação de uso de simulações aparecem muito antes dos emuladores. O seu objetivo é simular com elevada precisão eventos reais de modo a saber os seus resultados. Estes sistemas chegaram a ser usados durante a Segunda Guerra Mundial, usando tubos de vácuo, para calcular trajetórias de projéteis e mesmo muitos outros resultados de diversas estratégias de guerra.
 
-Na ciência, as simulações, têm um importante papel para compreender o universo e toda a natureza. A criação de simulações com base em modelos complexos permitir e permite grandes avanços na engenharia, química, astrofísica, meteorologia e muito mais.
+Na ciência, as simulações, têm um importante papel para compreender o universo e toda a natureza. A criação de simulações com base em modelos complexos permitiu e permite grandes avanços na engenharia, química, astrofísica, meteorologia e muito mais.
 
 {{ fit_image(path="blog/2021-07-17_lc-3-part-1/universe-simulation.jpg", alt="Simulação do Universo", alt_link="https://news.mit.edu/2019/early-galaxy-fuzzy-universe-simulation-1003" ) }}
 
