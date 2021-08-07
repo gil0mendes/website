@@ -22,9 +22,9 @@ Podemos dizer que a arquitetura de um computador é um conjunto de regras e mét
 
 Um excelente exemplo de uma arquitetura de computador é a arquitetura de von Neumann, que continua a ser a base da maioria dos computadores, mesmo atualmente. Esta arquitetura foi proposta pelo brilhante matemático John von Neumann, a pessoa que podemos de apelidar como o tio do computador eletrónico ao lado do pai [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing).
 
-{{ fit_image(path="blog/2021-07-25_lc-3-part-2/von_neumann_architecture.svg", alt="Arquitetura da Van Neumann", alt_link="https://en.wikipedia.org/wiki/Von_Neumann_architecture" ) }}
+{{ fit_image(path="blog/2021-07-25_lc-3-part-2/von_neumann_architecture.svg", alt="Arquitetura da Von Neumann", alt_link="https://en.wikipedia.org/wiki/Von_Neumann_architecture" ) }}
 
-A proposta de arquitetura de van Neumann para o computador eletrónico no ano de 1945 era composta por 5 partes principais, unidade de controlo, unidade lógica e aritmética (ALU), memoria, input e output. Nos computadores atuais a unidade de controlo e a ALU fundiram-se para se tornar o que conhecemos hoje por CPU.
+A proposta de arquitetura de Von Neumann para o computador eletrónico no ano de 1945 era composta por 5 partes principais, unidade de controlo, unidade lógica e aritmética (ALU), memoria, input e output. Nos computadores atuais a unidade de controlo e a ALU fundiram-se para se tornar o que conhecemos hoje por CPU.
 
 O que falamos até agora foi do que é conhecido como _System Design_, mas quando se fala de arquitetura de computadores pode-se também estar a referir a Instruction Set Architecture (ISA) ou ainda a microarquitetura do computador.
 
@@ -112,14 +112,6 @@ A diretiva `derive(Default)` automaticamente vai implementar os valores por defe
 As instruções são os comandos que podemos dar a CPU. Estas instruções são operações fundamentais, ou seja, são operações simples como a adição entre dois números. Cada instrução é formada por duas partes, o **opcode** que indica que tarefa tem que ser executada e uma parte com os **parâmetros** dessa operação, algumas instruções não possuem parâmetros.
 
 Podemos olhar para os opcodes como uma representação do que a CPU “sabe fazer”. O LC-3 contem um total de 16 opcodes. Tudo que o computador pode fazer e todos os programas que iremos executar nele, são apenas sequências destas 16 instruções.
-
-[imagem com a estrutura das instruções]
-
-## Instruções
-
-As instruções são os comandos que podemos dar a CPU. Estas instruções são operações fundamentais, ou seja, são operações simples como a adição entre dois números. Cada instrução é formada por duas partes, o **opcode** que indica que tarefa sem que ser executada e uma parte com os **parâmetros** dessa operação, algumas instruções não possuem parâmetros.
-
-Podemos olhar para os opcodes como uma representação do que a CPU “sabe fazer”. O LC-3 contem on total de 16 opcodes. Tudo que o computador pode fazer e todos os programas que iremos executar nele, são apenas sequências destas 16 instruções.
 
 {{ fit_image(path="blog/2021-07-25_lc-3-part-2/add-instruction-structure.png", alt="Estrutura da Instrução de Adição" ) }}
 
