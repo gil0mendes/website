@@ -8,6 +8,8 @@ tags = ["emulation", "rust", "CPU"]
 [extra]
 comments=true
 applause=true
+
+image = "blog/2021-08-08_lc-3-part-3/add-to-machine.png"
 +++
 
 Na [parte anterior](@/blog/2021-07-25_lc-3-part-2/index.pt.md) descrevemos alguns dos componentes principais do nosso emulador, hoje é altura de implementar algumas instruções da nossa CPU, mas primeiro vamos olhar para algum assembly exemplo.

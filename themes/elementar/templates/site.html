@@ -38,6 +38,11 @@
       <meta name="og:permalink" content="{{ section.permalink }}" />
     {%- endif %}
 
+    {% if page.extra.image %}
+      <meta property="og:image" content="{{ resize_image(path=page.extra.image, width=600, op="fit_width") }}">
+      <meta name="twitter:card" content="summary_large_image">
+    {%- endif %}
+
     {% set keywords = [] -%}
     {%- if page.taxonomies.tags -%}
         {% set_global keywords = page.taxonomies.tags %}
