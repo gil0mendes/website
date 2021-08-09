@@ -1,5 +1,6 @@
 +++
 title = "LC-3 Architecture"
+description = "Creation of the first structs in Rust for the LC-3 emulator."
 
 [taxonomies]
 categories = ["blog"]

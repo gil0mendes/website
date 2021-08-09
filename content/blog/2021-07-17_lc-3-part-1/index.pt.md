@@ -1,5 +1,6 @@
 +++
 title = "Simulação, Emulação e Virtualização"
+description = "Resumo da origem dos emuladores e de como chegamos a virtualização."
 
 [taxonomies]
 categories = ["blog"]
@@ -8,6 +9,8 @@ tags = ["emulation", "virtualization"]
 [extra]
 comments=true
 applause=true
+
+image = "blog/2021-07-17_lc-3-part-1/nes.jpg"
 +++
 
 A palavra emulação tem origem muito próxima do próprio computador, desde cedo engenheiros tentaram executar programas de outros sistemas nos seus computadores, dado que existiam múltiplas plataforma e arquiteturas, tudo era muito incompatível dada a diferença. Infelizmente, na altura, dado ao hardware ser muito lento e limitado na sua capacidade, a emulação era impossível ou muito limitada.

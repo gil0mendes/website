@@ -1,5 +1,6 @@
 +++
 title = "LC-3 Implementação de Instruções"
+description = "Implementação do ciclo de fetch e da primeira instrução de um programa exemplo."
 
 [taxonomies]
 categories = ["blog"]
@@ -13,6 +14,8 @@ image = "blog/2021-08-08_lc-3-part-3/add-to-machine.png"
 +++
 
 Na [parte anterior](@/blog/2021-07-25_lc-3-part-2/index.pt.md) descrevemos alguns dos componentes principais do nosso emulador, hoje é altura de implementar algumas instruções da nossa CPU, mas primeiro vamos olhar para algum assembly exemplo.
+
+<!-- more -->
 
 O objetivo desta série não é ensinar assembly, mas precisamos de um binário de testes que iremos usar para testar a implementação do nosso sistema. Para esse efeito criei um simples código assembly que incrementa o register R0 em 1 até chegar a 10:
 

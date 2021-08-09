@@ -1,5 +1,6 @@
 +++
 title = "Simulation, Emulation, and Virtualization"
+description = "Summary on how we get to emulators and how virtualization came to be."
 
 [taxonomies]
 categories = ["blog"]
@@ -8,6 +9,8 @@ tags = ["emulation", "virtualization"]
 [extra]
 comments=true
 applause=true
+
+image = "blog/2021-07-17_lc-3-part-1/nes.jpg"
 +++
 
 The word emulation appeared very close to the computer itself, since early engineers tried to run programs from other systems on their computers. As there were multiple platforms and architectures, everything was very incompatible, given the difference. Unfortunately, at the time, as the hardware was very slow and limited in its capacity, emulation was either impossible or very limited.
@@ -26,11 +29,11 @@ Emulators were first used by console game developers who wanted a faster way to 
 
 {{ fit_image(path="blog/2021-07-17_lc-3-part-1/nes.jpg", alt="Nintendo Entertainment System", alt_link="https://unsplash.com/photos/mzOOPzRmCqE" ) }}
 
-Emulator development remains a very active area today. There are entire communities with the goal of creating enough stable emulators to run any legacy game in a performant manner. There is a lot of controversy surrounding this topic due to the legality surrounding the ROMs of these older systems in the absence of licensed hardware, but it wasn't enough to stop this trend. 
+Emulator development remains a very active area today. There are entire communities with the goal of creating enough stable emulators to run any legacy game in a performant manner. There is a lot of controversy surrounding this topic due to the legality surrounding the ROMs of these older systems in the absence of licensed hardware, but it wasn't enough to stop this trend.
 
 Some examples of emulators are [Mesen](https://www.mesen.ca/), an emulator for the famous Nintendo console released in the 1980s, the NES; and [mgba](https://mgba.io/) which is an emulator for Gameboy. There are many, and even talking about old systems there are still many people/groups creating new ones. When it comes to computers, the most classic examples are [Bochs](https://bochs.sourceforge.io/) and [Qemu](https://www.qemu.org/) (even though it currently has virtualization capabilities).
 
-# Simulation 
+# Simulation
 
 Creating and using simulations appear long before emulators. Its objective is to simulate real events with high precision in order to know their results. These systems came to be used during World War II, using vacuum tubes to calculate projectile trajectories and even many other outcomes of various war strategies.
 
@@ -42,7 +45,7 @@ It is important to note that simulations are increasingly complex. Consequently,
 
 An example of software that might fall into this category is Cisco's [Packet Tracer](https://www.netacad.com/courses/packet-tracer).
 
-# Interpreters 
+# Interpreters
 
 Some interpreters are also called virtual machines, but it has nothing to do with the software that allows you to emulate an entire operating system on it.
 
@@ -52,7 +55,7 @@ This virtual machine is the only component that has to be adapted and recompiled
 
 Some examples of languages that use this technique are [JAVA](https://en.wikipedia.org/wiki/Java_bytecode), JavaScript, [Erlang/Elixir](<https://en.wikipedia.org/wiki) /BEAM_(Erlang_virtual_machine)>) and more recently, we have [WebAssembly](https://webassembly.org/). Web Assembly uses the implementation of a VM to create a sandbox environment that allows you to completely isolate the running program and make it cross-platform.
 
-# Virtualization 
+# Virtualization
 
 At present, when talking about virtual machines or VMs, no one is referring to the classic concepts described above, but rather to the result of that technology. With the stabilization of some architectures, techniques, and computing power, virtualization was utterly inevitable.
 
@@ -67,7 +70,6 @@ In this category, we can find some better-known software such as [VirtualBox](ht
 ## Hypervisors
 
 Allowed by the capabilities of the hardware to self-virtualize, hypervisors soon emerged. Hypervisors can be divided into two broad types: type 2 is equivalent to the virtualization described above; type 1 or BareMetal hypervisors systems are installed directly on hardware that does not resort to a host operating system and intermediates all virtual machines, handling all privileged accesses to the hardware.
-
 
 Privileged access can be understood as configuring the paging tables (management of physical memory and mapping to virtual memory) or read/write to I/O ports. In short, the hypervisor validates all operations involving memory, and it performs the protected operations itself; I/O operations are mapped to the emulated device hardware rather than the emulated CPU.
 
