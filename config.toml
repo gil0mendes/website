@@ -6,12 +6,6 @@ description = "Gil Mendes personal website"
 
 theme = "elementar"
 
-# Language configurations
-default_language = "en"
-languages = [
-  { code = "pt", feed = true, search = true }
-]
-
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 generate_feed = true
@@ -22,9 +16,17 @@ insert_anchor_links = "right"
 
 taxonomies = [
   { name = "categories", paginate_by = 5, rss = true, lang = "en" },
-  { name = "categories", paginate_by = 5, rss = true, lang = "pt" },
   { name = "tags", paginate_by = 5, rss = true, lang = "en" },
-  { name = "tags", paginate_by = 5, rss = true, lang = "pt" },
+]
+
+# Language configurations
+default_language = "en"
+[languages.pt]
+generate_feed = true
+build_search_index = true
+taxonomies = [
+  { name = "categories", paginate_by = 5, rss = true },
+  { name = "tags", paginate_by = 5, rss = true },
 ]
 
 [markdown]
