@@ -1,10 +1,10 @@
-FROM ubuntu:18.04 as build
+FROM ubuntu:22.04 as build
 
-ARG ZOLA_VERSION=v0.13.0
+ARG ZOLA_VERSION=v0.15.2
 
 # Install CURL
 RUN apt-get update \
-      && apt-get install -y --no-install-recommends ca-certificates openssl curl \
+      && apt-get install -y --no-install-recommends ca-certificates openssl curl build-essential  \
       && rm -rf /var/lib/apt/lists/* \
       && mkdir /app
 
@@ -12,7 +12,7 @@ RUN apt-get update \
 WORKDIR /app
 
 # Install Zola
-RUN curl -L https://github.com/getzola/zola/releases/download/v0.13.0/zola-v0.13.0-x86_64-unknown-linux-gnu.tar.gz > zola.tar.gz \
+RUN curl -L https://github.com/getzola/zola/releases/download/v0.15.2/zola-v0.15.2-x86_64-unknown-linux-gnu.tar.gz > zola.tar.gz \
       && tar -xzf zola.tar.gz
 
 # build
