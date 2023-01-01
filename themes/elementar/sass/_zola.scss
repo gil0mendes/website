@@ -1,9 +1,0 @@
-/**
- * Title anchor: continue reading
- *
- * Move anchor slightly up, prevent conflicts with page content.
- */
-p#zola-continue-reading > a {
-    position: absolute;
-    margin-top: -3rem;
-}

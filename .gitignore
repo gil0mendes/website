@@ -1,5 +1,2 @@
-public/
-static/processed_images/
-
-./tags
-.DS_Store
+.direnv
+/result
