@@ -6,6 +6,8 @@ page:
   siteName: gil0mendes
   headHtml: |
     <snippet var="js.highlightjs" />
+  bodyHtml: |
+    <script data-goatcounter="https://gil0mendes.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
 template:
   theme: yellow
