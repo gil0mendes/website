@@ -1,0 +1,5 @@
+# 💾 Software
+
+```query
+path:./*
+```
