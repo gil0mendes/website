@@ -1,5 +1,5 @@
 ---
-tags: [blog]
+tags: [blog, donation]
 date: 2023-02-03
 ---
 
