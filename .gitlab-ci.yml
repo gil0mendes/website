@@ -11,9 +11,9 @@ build_image:
   services:
     - docker:dind
   before_script:
-    - echo $CI_BUILD_TOKEN | docker login -u "$CI_REGISTRY_USER" --password-stdin $CI_REGISTRY
+    - echo $CI_REGISTRY_PASSWORD | docker login -u "$CI_REGISTRY_USER" --password-stdin $CI_REGISTRY
   script:
-    - docker build --pull -t $CI_REGISTRY_IMAGE:$CI_BUILD_REF_NAME .
+    - docker build --pull -t $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME .
     - docker push $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME
     - docker tag $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME $CI_REGISTRY_IMAGE:latest
     - docker push $CI_REGISTRY_IMAGE:latest
@@ -24,19 +24,9 @@ deploy:
   stage: deploy
   dependencies:
     - build_image
-  variables:
-    DOCKER_TLS_VERIFY: 1
-    DOCKER_HOST: "$DEPLOY_DOCKER_HOST"
-    SERVICE_NAME: gil0mendes-website
-  image: docker:latest
-  before_script:
-    - mkdir -p ~/.docker
-    - echo "$TLSCACERT" > ~/.docker/ca.pem
-    - echo "$TLSCERT" > ~/.docker/cert.pem
-    - echo "$TLSKEY" > ~/.docker/key.pem
-    - echo $CI_BUILD_TOKEN | docker login -u "$CI_REGISTRY_USER" --password-stdin $CI_REGISTRY
+  image: elementarium/hashicorp:main
   script:
-    - docker stack deploy --compose-file=docker-stack-compose.yml ${CI_PROJECT_NAMESPACE}-${CI_PROJECT_NAME}-${SERVICE_NAME}
+    - ./deploy/deploy-prod.sh
   environment:
     name: live
     url: https://gil0mendes.io

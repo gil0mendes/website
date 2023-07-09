@@ -13,7 +13,7 @@ WORKDIR /data
 COPY --from=build /data/output/export.json .
 RUN emanote-sitemap-generator
 
-FROM nginx as webserver
+FROM --platform=linux/arm64 nginx as webserver
 
 COPY deploy/nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=build /data/output /usr/share/nginx/html
