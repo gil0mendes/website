@@ -18,3 +18,4 @@ FROM --platform=linux/arm64 nginx as webserver
 COPY deploy/nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=build /data/output /usr/share/nginx/html
 COPY --from=generator /data/sitemap.xml /usr/share/nginx/html
+COPY ./public/* /usr/share/nginx/html
