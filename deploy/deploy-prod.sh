@@ -6,4 +6,4 @@ echo "$NOMAD_TMP_CERT" > /opt/certs/ca.pem
 export NOMAD_CACERT="/opt/certs/ca.pem"
 
 # do the deploy
-levant deploy deploy/job.nomadtpl
+levant deploy deploy/job.nomad.hcl

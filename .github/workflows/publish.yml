@@ -8,6 +8,7 @@ on:
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
+  NOMAD_VERSION: "1.9.3"
 
 permissions:
   contents: read
@@ -37,7 +38,7 @@ jobs:
       - name: Put all together
         run: |
           mkdir dist
-          cp -Lr _site/ dist
+          cp -Lr _site/* dist
           cp sitemap.xml dist/
 
       - name: Upload artifact
@@ -49,6 +50,9 @@ jobs:
   docker-image:
     needs: build
     runs-on: ubuntu-latest
+
+    outputs:
+      image-tag: ${{ steps.meta.outputs.tags }}
 
     permissions:
       contents: read
@@ -77,6 +81,8 @@ jobs:
         uses: docker/metadata-action@9ec57ed1fcdbf14dcef7dfbe97b2010124a938b7
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          tags: |
+            type=sha
 
       - name: Build and push Docker image
         id: push
@@ -93,3 +99,40 @@ jobs:
           subject-name: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME}}
           subject-digest: ${{ steps.push.outputs.digest }}
           push-to-registry: true
+
+  publish:
+    needs: docker-image
+    runs-on: ubuntu-latest
+    env:
+      CI_IMAGE_TAG: ${{ needs.docker-image.outputs.image-tag }}
+      NOMAD_ADDR: ${{ vars.NOMAD_ADDR }}
+      NOMAD_TOKEN: ${{ secrets.NOMAD_TOKEN }}
+      NOMAD_SKIP_VERIFY: "y"
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup `nomad`
+        uses: hashicorp/setup-nomad@main
+        with:
+          version: ${{ env.NOMAD_VERSION }}
+
+      - name: Setup mTLS
+        run: |
+          mkdir -p $PWD/certs
+          echo "${{ secrets.NOMAD_CRT }}" > $PWD/certs/carbon.crt
+          echo "${{ secrets.NOMAD_KEY }}" > $PWD/certs/carbon.key
+          echo "${{ secrets.NOMAD_CA_PEM }}" > $PWD/certs/ca.pem
+          echo "NOMAD_CAPATH=$PWD/certs" >> $GITHUB_ENV
+          echo "NOMAD_CLIENT_CERT=$PWD/certs/carbon.crt" >> $GITHUB_ENV
+          echo "NOMAD_CLIENT_KEY=$PWD/certs/carbon.key" >> $GITHUB_ENV
+          echo "NOMAD_CACERT=$PWD/certs/ca.pem"
+
+      - name: Check connection
+        run: nomad node status
+
+      - name: Deploy nomad job
+        run: |
+          envsubst < deploy/job.nomad.hcl > deploy/job-filled.nomad.hcl
+          nomad job run deploy/job-filled.nomad.hcl

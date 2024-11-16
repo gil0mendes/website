@@ -1,11 +1,29 @@
 image: docker:stable
 
 stages:
-  - build_image
+  - build
+  - docker
   - deploy
 
-build_image:
-  stage: build_image
+build:
+  stage: build
+  image: nixpkgs/nix
+  script:
+    - nix --extra-experimental-features "nix-command flakes" build -o ._site
+    - nix --extra-experimental-features "nix-command flakes" run . --export > export.json
+    - nix --extra-experimental-features "nix-command flakes" run github:gil0mendes/emanote-sitemap-generator
+    - mkdir dist
+    - cp -Lr _site/ dist
+    - cp sitemap.xml dist/
+  artifacts:
+    paths:
+      - dist/
+    expire_in: 1 week
+
+docker:
+  stage: docker
+  dependencies:
+    - build
   services:
     - docker:dind
   before_script:
@@ -15,18 +33,18 @@ build_image:
     - docker push $CI_REGISTRY_IMAGE:$CI_COMMIT_SHORT_SHA
     - docker tag $CI_REGISTRY_IMAGE:$CI_COMMIT_SHORT_SHA $CI_REGISTRY_IMAGE:latest
     - docker push $CI_REGISTRY_IMAGE:latest
-  only:
-    - live
+  rules:
+    - if: $CI_COMMIT_BRANCH == "live"
 
 deploy:
   stage: deploy
   dependencies:
-    - build_image
+    - docker
   image: elementarium/hashicorp:main
   script:
     - ./deploy/deploy-prod.sh
   environment:
     name: live
     url: https://gil0mendes.io
-  only:
-    - live
+  rules:
+    - if: $CI_COMMIT_BRANCH == "live"

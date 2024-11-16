@@ -29,7 +29,7 @@ job "gil0mendes-website" {
       driver = "docker"
 
       config {
-        image = "[[ env "CI_REGISTRY_IMAGE" ]]:[[ env "CI_COMMIT_SHORT_SHA" ]]"
+        image = "$CI_IMAGE_TAG"
       }
     }
   }
