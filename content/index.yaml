@@ -14,7 +14,7 @@ template:
 
   # You can add your own variables here, like editBaseUrl.
   # See after-note.tpl to see where editBaseUrl gets used.
-  editBaseUrl: https://gitlab.com/gil0mendes/website/-/blob/live/content
+  editBaseUrl: https://github.com/gil0mendes/website/tree/live/content
 
   # Uncomment this to get neuron-style pages
   # name: /templates/layouts/note
