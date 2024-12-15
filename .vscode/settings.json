@@ -1,6 +1,5 @@
 {
-  // Avoid having to explicitly save notes
-  "files.autoSave": "afterDelay",
+  "cSpell.language": "en,pt_PT",
   // Minimap is not useful for Markdown notes
   "editor.minimap.enabled": false,
   // Generally note files are not opened in duplicate tabs.
@@ -28,5 +27,22 @@
   "html.format.unformattedContentDelimiter": "<!-- DoNotFormat -->",
   // If use Git, these might be interesting:
   "git.autofetch": true,
-  "git.postCommitCommand": "push"
+  "git.postCommitCommand": "push",
+  "[markdown]": {
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    },
+    "cSpell.fixSpellingWithRenameProvider": true,
+    "cSpell.advanced.feature.useReferenceProviderWithRename": true,
+    "cSpell.advanced.feature.useReferenceProviderRemove": "/^#+\\s/",
+
+    // Avoid having to explicitly save notes
+    "files.autoSave": "afterDelay"
+  }
 }
