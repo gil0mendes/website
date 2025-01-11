@@ -22,3 +22,20 @@ Eu escrevi o seguinte como comentario a este video:
 > Amazing to come across this video today, especially after spending so much time researching alternatives to the desktop metaphor. Like you, I feel there's so much more potential in how we use computers. As Alan Kay famously said, "The computer revolution hasn't happened yet."
 
 > I often think about alternatives to the systems we have now, but it's disheartening to find so few examples or proposals exploring new directions. It's always easier to innovate with a blank canvas. My concern is that we may be losing the collective memory of what computers were like before the desktop metaphor took over. This could limit our ability to imagine or pursue possibilities beyond this era. -- **2025-01-11**
+
+## Alternativas
+
+Uma pequenas lista de alternativas a metafora do Desktop:
+
+- [MercuryOS](https://www.mercuryos.com/)
+- [Zooming user interface](https://en.wikipedia.org/wiki/Zooming_user_interface)
+  - [Prezi](https://prezi.com/) - mas apenas para apresentações, não para substituir o Desktop em si
+  - [Pad++](https://www.youtube.com/watch?v=BlIRYTuSv0Q)
+- Metafora espacial
+  - [Microsoft Bob](https://en.wikipedia.org/wiki/Microsoft_Bob)
+  - [Project Looking Glass](https://en.wikipedia.org/wiki/Project_Looking_Glass)
+- Task-centered
+  - [The Task Gallery](https://www.microsoft.com/en-us/research/publication/the-task-gallery-a-3d-window-manager/)
+  - [Apple's Stage Manager](https://support.apple.com/pt-pt/guide/mac-help/mchl534ba392/mac) - de uma certa forma.
+- Outros
+  - [Projeto Natal (Kinect)](https://en.wikipedia.org/wiki/Kinect)
