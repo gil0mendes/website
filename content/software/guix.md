@@ -217,7 +217,7 @@ and this is the config.scm file
 
           (file-system
             (device (uuid "994be033-ab43-4f02-9ed7-71db92871354"))
-            (mount-point "/boot")
+            (mount-point "/boot/efi")
             (type "vfat")))
 
     %base-file-systems))
