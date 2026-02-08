@@ -32,7 +32,7 @@ jobs:
 
       - name: Generate sitemap
         run: |
-          nix run . -- export > export.json
+          nix run . -- export metadata > export.json
           nix run github:gil0mendes/emanote-sitemap-generator
 
       - name: Put all together
