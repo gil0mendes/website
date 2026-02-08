@@ -11,27 +11,47 @@
     flake-parts.follows = "emanote/flake-parts";
   };
 
-  outputs = inputs@{ self, flake-parts, nixpkgs, ... }:
+  outputs =
+    inputs@{
+      self,
+      flake-parts,
+      nixpkgs,
+      ...
+    }:
     flake-parts.lib.mkFlake { inherit inputs; } {
       systems = nixpkgs.lib.systems.flakeExposed;
       imports = [ inputs.emanote.flakeModule ];
-      perSystem = { self', pkgs, system, ... }: {
-        emanote.sites."gil0mendes" = {
-          layers = [{ path = ./content; pathString = "./content"; }];
-          port = 9801;
-          prettyUrls = true;
+      perSystem =
+        {
+          self',
+          pkgs,
+          system,
+          ...
+        }:
+        {
+          emanote.sites."gil0mendes" = {
+            layers = [
+              {
+                path = ./content;
+                pathString = "./content";
+              }
+            ];
+            port = 9801;
+            extraConfig = {
+              urlStrategy = "pretty";
+            };
+          };
+          apps.default.program = self'.apps.gil0mendes.program;
+          packages.default = pkgs.symlinkJoin {
+            name = "gil0mendes-static-site";
+            paths = [ self'.packages.gil0mendes ];
+          };
+          devShells.default = pkgs.mkShell {
+            buildInputs = with pkgs; [
+              nixpkgs-fmt
+              act
+            ];
+          };
         };
-        apps.default.program = self'.apps.gil0mendes.program;
-        packages.default = pkgs.symlinkJoin {
-          name = "gil0mendes-static-site";
-          paths = [ self'.packages.gil0mendes ];
-        };
-        devShells.default = pkgs.mkShell {
-          buildInputs = with pkgs; [
-            nixpkgs-fmt
-            act
-          ];
-        };
-      };
     };
 }
