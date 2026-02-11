@@ -1,0 +1,5 @@
+# Pratos Principais
+
+```query
+path:./*
+```
