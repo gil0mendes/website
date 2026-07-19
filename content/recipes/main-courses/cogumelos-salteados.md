@@ -10,7 +10,7 @@
 - Pimenta preta
 - Manteiga
 
-## Preparo
+## Preparação
 
 1. Numa frigideira bem quente, com um pouco de azeite, cozinhe os cogumelos até ficarem macios.
 2. Adicione a pimenta preta e o sal a gosto. O sal vai ajudar a soltar a água dos cogumelos.

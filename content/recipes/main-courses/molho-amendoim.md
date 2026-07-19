@@ -9,6 +9,6 @@ O molho de amendoim é uma combinação de ingredientes que criam um sabor únic
 - 1 colher de mel
 - Sumo de lima
 
-## Preparo
+## Preparação
 
 1. Colocar tudo em uma tigela e misturar bem.
